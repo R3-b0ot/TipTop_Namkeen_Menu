@@ -43,6 +43,7 @@ class StoreStateManager {
       this.catalog = await res.json();
       this.categories = [...new Set(this.catalog.map(p => p.category))];
       this.applyFilters();
+      this._emit('cart:update');
     } catch (err) {
       console.error('Catalog fetch failed, using fallback data', err);
       this.catalog = [];
