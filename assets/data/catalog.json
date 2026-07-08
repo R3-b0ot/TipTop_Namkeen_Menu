@@ -20,7 +20,7 @@
       }
     ],
     "description": "Crispy gram flour papdi, perfect tea-time snack with authentic Indian spices.",
-    "image": "/assets/images/products/ttn-001.svg",
+    "image": "assets/images/products/ttn-001.svg",
     "isBestseller": true,
     "isSpecial": false,
     "tags": [
@@ -59,7 +59,7 @@
       }
     ],
     "description": "Spiced masala papdi with aromatic seasonings and crispy texture.",
-    "image": "/assets/images/products/ttn-002.svg",
+    "image": "assets/images/products/ttn-002.svg",
     "isBestseller": false,
     "isSpecial": false,
     "tags": [
@@ -98,7 +98,7 @@
       }
     ],
     "description": "Authentic Bhavnagar style gathiya with thick crunchy besan sticks.",
-    "image": "/assets/images/products/ttn-003.svg",
+    "image": "assets/images/products/ttn-003.svg",
     "isBestseller": false,
     "isSpecial": false,
     "tags": [
@@ -137,7 +137,7 @@
       }
     ],
     "description": "Thick and crunchy jaada gathiya made from premium gram flour.",
-    "image": "/assets/images/products/ttn-004.svg",
+    "image": "assets/images/products/ttn-004.svg",
     "isBestseller": false,
     "isSpecial": false,
     "tags": [
@@ -176,7 +176,7 @@
       }
     ],
     "description": "Traditional Marwadi style sev with rich spicy flavour and crunch.",
-    "image": "/assets/images/products/ttn-005.svg",
+    "image": "assets/images/products/ttn-005.svg",
     "isBestseller": true,
     "isSpecial": false,
     "tags": [
@@ -216,7 +216,7 @@
       }
     ],
     "description": "Crunchy sev pakodi blend with perfect balance of spices.",
-    "image": "/assets/images/products/ttn-006.svg",
+    "image": "assets/images/products/ttn-006.svg",
     "isBestseller": false,
     "isSpecial": false,
     "tags": [
@@ -256,7 +256,7 @@
       }
     ],
     "description": "Thick jaadi sev with robust crunch and authentic Indian seasoning.",
-    "image": "/assets/images/products/ttn-007.svg",
+    "image": "assets/images/products/ttn-007.svg",
     "isBestseller": false,
     "isSpecial": false,
     "tags": [
@@ -295,7 +295,7 @@
       }
     ],
     "description": "Crispy dal moth mix with lentils and tangy spice coating.",
-    "image": "/assets/images/products/ttn-008.svg",
+    "image": "assets/images/products/ttn-008.svg",
     "isBestseller": true,
     "isSpecial": false,
     "tags": [
@@ -335,7 +335,7 @@
       }
     ],
     "description": "Thin sev specially made for bhel puri with light crispiness.",
-    "image": "/assets/images/products/ttn-009.svg",
+    "image": "assets/images/products/ttn-009.svg",
     "isBestseller": false,
     "isSpecial": false,
     "tags": [
@@ -375,7 +375,7 @@
       }
     ],
     "description": "Extra fine zero number sev with delicate melt-in-mouth texture.",
-    "image": "/assets/images/products/ttn-010.svg",
+    "image": "assets/images/products/ttn-010.svg",
     "isBestseller": false,
     "isSpecial": false,
     "tags": [
@@ -414,7 +414,7 @@
       }
     ],
     "description": "Famous Ratlami sev with bold garlic and spice flavour.",
-    "image": "/assets/images/products/ttn-011.svg",
+    "image": "assets/images/products/ttn-011.svg",
     "isBestseller": true,
     "isSpecial": false,
     "tags": [
@@ -454,7 +454,7 @@
       }
     ],
     "description": "Crispy traditional pakodi made with gram flour and authentic spices.",
-    "image": "/assets/images/products/ttn-012.svg",
+    "image": "assets/images/products/ttn-012.svg",
     "isBestseller": false,
     "isSpecial": false,
     "tags": [
@@ -495,7 +495,7 @@
       }
     ],
     "description": "Zesty masala pakodi with aromatic spice blend and crunchy texture.",
-    "image": "/assets/images/products/ttn-013.svg",
+    "image": "assets/images/products/ttn-013.svg",
     "isBestseller": false,
     "isSpecial": false,
     "tags": [
@@ -536,7 +536,7 @@
       }
     ],
     "description": "Classic yellow banana wafers with natural sweetness and crispiness.",
-    "image": "/assets/images/products/ttn-014.svg",
+    "image": "assets/images/products/ttn-014.svg",
     "isBestseller": true,
     "isSpecial": false,
     "tags": [
@@ -576,7 +576,7 @@
       }
     ],
     "description": "Spicy masala coated banana wafers with sweet and savoury punch.",
-    "image": "/assets/images/products/ttn-015.svg",
+    "image": "assets/images/products/ttn-015.svg",
     "isBestseller": false,
     "isSpecial": false,
     "tags": [
@@ -616,7 +616,7 @@
       }
     ],
     "description": "Traditional kara mari banana chips with spicy chilli coating.",
-    "image": "/assets/images/products/ttn-016.svg",
+    "image": "assets/images/products/ttn-016.svg",
     "isBestseller": false,
     "isSpecial": false,
     "tags": [
@@ -656,7 +656,7 @@
       }
     ],
     "description": "Refreshing pudina mint flavoured banana wafers with cool crunchy taste.",
-    "image": "/assets/images/products/ttn-017.svg",
+    "image": "assets/images/products/ttn-017.svg",
     "isBestseller": false,
     "isSpecial": true,
     "tags": [
@@ -697,7 +697,7 @@
       }
     ],
     "description": "Savory cheese flavoured banana wafers with creamy tangy deliciousness.",
-    "image": "/assets/images/products/ttn-018.svg",
+    "image": "assets/images/products/ttn-018.svg",
     "isBestseller": false,
     "isSpecial": true,
     "tags": [
@@ -738,7 +738,7 @@
       }
     ],
     "description": "Spicy peri peri banana wafers with bold fiery flavour and crunch.",
-    "image": "/assets/images/products/ttn-019.svg",
+    "image": "assets/images/products/ttn-019.svg",
     "isBestseller": false,
     "isSpecial": true,
     "tags": [
@@ -779,7 +779,7 @@
       }
     ],
     "description": "Tangy tomato flavoured banana wafers with zesty lip-smacking taste.",
-    "image": "/assets/images/products/ttn-020.svg",
+    "image": "assets/images/products/ttn-020.svg",
     "isBestseller": false,
     "isSpecial": true,
     "tags": [
@@ -820,7 +820,7 @@
       }
     ],
     "description": "Bold peri peri banana finger chips with fiery spicy seasoning.",
-    "image": "/assets/images/products/ttn-021.svg",
+    "image": "assets/images/products/ttn-021.svg",
     "isBestseller": false,
     "isSpecial": false,
     "tags": [
@@ -861,7 +861,7 @@
       }
     ],
     "description": "Creamy cheese banana finger chips with rich savoury flavour.",
-    "image": "/assets/images/products/ttn-022.svg",
+    "image": "assets/images/products/ttn-022.svg",
     "isBestseller": false,
     "isSpecial": false,
     "tags": [
@@ -902,7 +902,7 @@
       }
     ],
     "description": "Tangy tomato banana finger chips with zesty crunchy bite.",
-    "image": "/assets/images/products/ttn-023.svg",
+    "image": "assets/images/products/ttn-023.svg",
     "isBestseller": false,
     "isSpecial": false,
     "tags": [
@@ -943,7 +943,7 @@
       }
     ],
     "description": "Spiced mix masala banana finger chips with aromatic Indian flavours.",
-    "image": "/assets/images/products/ttn-024.svg",
+    "image": "assets/images/products/ttn-024.svg",
     "isBestseller": false,
     "isSpecial": false,
     "tags": [
@@ -984,7 +984,7 @@
       }
     ],
     "description": "Thin and crispy banana salli with delicate melt-in-mouth texture.",
-    "image": "/assets/images/products/ttn-025.svg",
+    "image": "assets/images/products/ttn-025.svg",
     "isBestseller": false,
     "isSpecial": false,
     "tags": [
@@ -1024,7 +1024,7 @@
       }
     ],
     "description": "Crispy bitter gourd chips with unique savoury flavour and crunch.",
-    "image": "/assets/images/products/ttn-026.svg",
+    "image": "assets/images/products/ttn-026.svg",
     "isBestseller": false,
     "isSpecial": false,
     "tags": [
@@ -1064,7 +1064,7 @@
       }
     ],
     "description": "Traditional bhajini chakli with authentic flavour and spiral crunch.",
-    "image": "/assets/images/products/ttn-027.svg",
+    "image": "assets/images/products/ttn-027.svg",
     "isBestseller": true,
     "isSpecial": false,
     "tags": [
@@ -1105,7 +1105,7 @@
       }
     ],
     "description": "Crunchy tukda chakli pieces with buttery crispy texture.",
-    "image": "/assets/images/products/ttn-028.svg",
+    "image": "assets/images/products/ttn-028.svg",
     "isBestseller": true,
     "isSpecial": false,
     "tags": [
@@ -1146,7 +1146,7 @@
       }
     ],
     "description": "Classic plain murukku with light crispy rice flour texture.",
-    "image": "/assets/images/products/ttn-029.svg",
+    "image": "assets/images/products/ttn-029.svg",
     "isBestseller": false,
     "isSpecial": false,
     "tags": [
@@ -1187,7 +1187,7 @@
       }
     ],
     "description": "Spicy masala murukku with bold seasoning and crunchy bite.",
-    "image": "/assets/images/products/ttn-030.svg",
+    "image": "assets/images/products/ttn-030.svg",
     "isBestseller": false,
     "isSpecial": false,
     "tags": [
@@ -1228,7 +1228,7 @@
       }
     ],
     "description": "Spicy misal mix with crunchy farsan and traditional spices.",
-    "image": "/assets/images/products/ttn-031.svg",
+    "image": "assets/images/products/ttn-031.svg",
     "isBestseller": false,
     "isSpecial": false,
     "tags": [
@@ -1268,7 +1268,7 @@
       }
     ],
     "description": "Crispy sing bhujia made from water chestnut flour with spice.",
-    "image": "/assets/images/products/ttn-032.svg",
+    "image": "assets/images/products/ttn-032.svg",
     "isBestseller": false,
     "isSpecial": false,
     "tags": [
@@ -1308,7 +1308,7 @@
       }
     ],
     "description": "Crispy chana dal snack with peppery spice and protein crunch.",
-    "image": "/assets/images/products/ttn-033.svg",
+    "image": "assets/images/products/ttn-033.svg",
     "isBestseller": false,
     "isSpecial": false,
     "tags": [
@@ -1348,7 +1348,7 @@
       }
     ],
     "description": "Light and crunchy mung dal with subtle earthy flavour.",
-    "image": "/assets/images/products/ttn-034.svg",
+    "image": "assets/images/products/ttn-034.svg",
     "isBestseller": false,
     "isSpecial": false,
     "tags": [
@@ -1388,7 +1388,7 @@
       }
     ],
     "description": "Famous Nadiyadi bhoosa with light crispy texture and spice.",
-    "image": "/assets/images/products/ttn-035.svg",
+    "image": "assets/images/products/ttn-035.svg",
     "isBestseller": false,
     "isSpecial": false,
     "tags": [
@@ -1428,7 +1428,7 @@
       }
     ],
     "description": "Classic salted potato wafers with thin crispy golden texture.",
-    "image": "/assets/images/products/ttn-036.svg",
+    "image": "assets/images/products/ttn-036.svg",
     "isBestseller": false,
     "isSpecial": false,
     "tags": [
@@ -1468,7 +1468,7 @@
       }
     ],
     "description": "Bold peri peri potato wafers with fiery spicy seasoning.",
-    "image": "/assets/images/products/ttn-037.svg",
+    "image": "assets/images/products/ttn-037.svg",
     "isBestseller": false,
     "isSpecial": false,
     "tags": [
@@ -1509,7 +1509,7 @@
       }
     ],
     "description": "Savory cheese potato wafers with creamy tangy delicious crunch.",
-    "image": "/assets/images/products/ttn-038.svg",
+    "image": "assets/images/products/ttn-038.svg",
     "isBestseller": false,
     "isSpecial": false,
     "tags": [
@@ -1550,7 +1550,7 @@
       }
     ],
     "description": "Spiced mix masala potato wafers with aromatic Indian flavours.",
-    "image": "/assets/images/products/ttn-039.svg",
+    "image": "assets/images/products/ttn-039.svg",
     "isBestseller": false,
     "isSpecial": false,
     "tags": [
@@ -1591,7 +1591,7 @@
       }
     ],
     "description": "Thin crispy potato salli that melts instantly on your tongue.",
-    "image": "/assets/images/products/ttn-040.svg",
+    "image": "assets/images/products/ttn-040.svg",
     "isBestseller": false,
     "isSpecial": false,
     "tags": [
@@ -1631,7 +1631,7 @@
       }
     ],
     "description": "Bold peri peri potato finger chips with fiery spicy coating.",
-    "image": "/assets/images/products/ttn-041.svg",
+    "image": "assets/images/products/ttn-041.svg",
     "isBestseller": false,
     "isSpecial": true,
     "tags": [
@@ -1672,7 +1672,7 @@
       }
     ],
     "description": "Creamy cheese potato finger chips with rich savoury flavour.",
-    "image": "/assets/images/products/ttn-042.svg",
+    "image": "assets/images/products/ttn-042.svg",
     "isBestseller": false,
     "isSpecial": true,
     "tags": [
@@ -1713,7 +1713,7 @@
       }
     ],
     "description": "Tangy tomato potato finger chips with zesty delicious crunch.",
-    "image": "/assets/images/products/ttn-043.svg",
+    "image": "assets/images/products/ttn-043.svg",
     "isBestseller": false,
     "isSpecial": true,
     "tags": [
@@ -1754,7 +1754,7 @@
       }
     ],
     "description": "Spiced mix masala potato finger chips with aromatic flavour.",
-    "image": "/assets/images/products/ttn-044.svg",
+    "image": "assets/images/products/ttn-044.svg",
     "isBestseller": false,
     "isSpecial": true,
     "tags": [
@@ -1795,7 +1795,7 @@
       }
     ],
     "description": "Light and crunchy flavoured makhana with delicious seasoning.",
-    "image": "/assets/images/products/ttn-045.svg",
+    "image": "assets/images/products/ttn-045.svg",
     "isBestseller": true,
     "isSpecial": false,
     "tags": [
@@ -1835,7 +1835,7 @@
       }
     ],
     "description": "Tangy tomato soya sticks with protein-packed savoury crunch.",
-    "image": "/assets/images/products/ttn-046.svg",
+    "image": "assets/images/products/ttn-046.svg",
     "isBestseller": false,
     "isSpecial": false,
     "tags": [
@@ -1876,7 +1876,7 @@
       }
     ],
     "description": "Spicy schezwan soya sticks with bold chilli garlic flavour.",
-    "image": "/assets/images/products/ttn-047.svg",
+    "image": "assets/images/products/ttn-047.svg",
     "isBestseller": false,
     "isSpecial": false,
     "tags": [
@@ -1917,7 +1917,7 @@
       }
     ],
     "description": "Tangy manchurian soya sticks with Indo-Chinese savoury taste.",
-    "image": "/assets/images/products/ttn-048.svg",
+    "image": "assets/images/products/ttn-048.svg",
     "isBestseller": false,
     "isSpecial": false,
     "tags": [
@@ -1958,7 +1958,7 @@
       }
     ],
     "description": "Healthy roasted corn chips with light crunchy guilt-free snacking.",
-    "image": "/assets/images/products/ttn-049.svg",
+    "image": "assets/images/products/ttn-049.svg",
     "isBestseller": false,
     "isSpecial": true,
     "tags": [
@@ -1998,7 +1998,7 @@
       }
     ],
     "description": "Nutritious roasted broccoli chips with earthy green vegetable flavour.",
-    "image": "/assets/images/products/ttn-050.svg",
+    "image": "assets/images/products/ttn-050.svg",
     "isBestseller": false,
     "isSpecial": false,
     "tags": [
@@ -2038,7 +2038,7 @@
       }
     ],
     "description": "Healthy roasted jowar chips made from nutritious sorghum flour.",
-    "image": "/assets/images/products/ttn-051.svg",
+    "image": "assets/images/products/ttn-051.svg",
     "isBestseller": false,
     "isSpecial": false,
     "tags": [
@@ -2078,7 +2078,7 @@
       }
     ],
     "description": "Roasted nachni chips packed with finger millet nutrition and crunch.",
-    "image": "/assets/images/products/ttn-052.svg",
+    "image": "assets/images/products/ttn-052.svg",
     "isBestseller": false,
     "isSpecial": false,
     "tags": [
@@ -2118,7 +2118,7 @@
       }
     ],
     "description": "Crispy flaky kachori with spiced lentil filling and rich taste.",
-    "image": "/assets/images/products/ttn-053.svg",
+    "image": "assets/images/products/ttn-053.svg",
     "isBestseller": true,
     "isSpecial": false,
     "tags": [
@@ -2158,7 +2158,7 @@
       }
     ],
     "description": "Premium dry fruit samosa with rich nutty filling and crispy crust.",
-    "image": "/assets/images/products/ttn-054.svg",
+    "image": "assets/images/products/ttn-054.svg",
     "isBestseller": false,
     "isSpecial": true,
     "tags": [
@@ -2198,7 +2198,7 @@
       }
     ],
     "description": "Crispy layered patti samosa with savoury spiced potato filling.",
-    "image": "/assets/images/products/ttn-055.svg",
+    "image": "assets/images/products/ttn-055.svg",
     "isBestseller": false,
     "isSpecial": false,
     "tags": [
@@ -2238,7 +2238,7 @@
       }
     ],
     "description": "Bite-sized mini kachoris with crunchy shell and spicy filling.",
-    "image": "/assets/images/products/ttn-056.svg",
+    "image": "assets/images/products/ttn-056.svg",
     "isBestseller": false,
     "isSpecial": false,
     "tags": [
@@ -2278,7 +2278,7 @@
       }
     ],
     "description": "Tangy achaari masti bingo with pickled spice fun crunch.",
-    "image": "/assets/images/products/ttn-057.svg",
+    "image": "assets/images/products/ttn-057.svg",
     "isBestseller": false,
     "isSpecial": false,
     "tags": [
@@ -2319,7 +2319,7 @@
       }
     ],
     "description": "Spicy schezwan bingo with bold chilli masala flavour.",
-    "image": "/assets/images/products/ttn-058.svg",
+    "image": "assets/images/products/ttn-058.svg",
     "isBestseller": false,
     "isSpecial": false,
     "tags": [
@@ -2360,7 +2360,7 @@
       }
     ],
     "description": "Tangy tomato bingo with zesty lip-smacking crunchy snack.",
-    "image": "/assets/images/products/ttn-059.svg",
+    "image": "assets/images/products/ttn-059.svg",
     "isBestseller": false,
     "isSpecial": false,
     "tags": [
@@ -2401,7 +2401,7 @@
       }
     ],
     "description": "Savory cheese bingo with creamy tangy crispy fun shapes.",
-    "image": "/assets/images/products/ttn-060.svg",
+    "image": "assets/images/products/ttn-060.svg",
     "isBestseller": false,
     "isSpecial": false,
     "tags": [
@@ -2442,7 +2442,7 @@
       }
     ],
     "description": "Classic cutting bhakarwadi with sweet spicy layered crunch.",
-    "image": "/assets/images/products/ttn-061.svg",
+    "image": "assets/images/products/ttn-061.svg",
     "isBestseller": true,
     "isSpecial": false,
     "tags": [
@@ -2483,7 +2483,7 @@
       }
     ],
     "description": "Round gol bhakarwadi with coconut poppy seed filling.",
-    "image": "/assets/images/products/ttn-062.svg",
+    "image": "assets/images/products/ttn-062.svg",
     "isBestseller": true,
     "isSpecial": false,
     "tags": [
@@ -2524,7 +2524,7 @@
       }
     ],
     "description": "Bite-sized mini bhakarwadi with spicy sweet filling.",
-    "image": "/assets/images/products/ttn-063.svg",
+    "image": "assets/images/products/ttn-063.svg",
     "isBestseller": false,
     "isSpecial": false,
     "tags": [
@@ -2565,7 +2565,7 @@
       }
     ],
     "description": "Bold garlic bhakarwadi with aromatic pungent spicy flavour.",
-    "image": "/assets/images/products/ttn-064.svg",
+    "image": "assets/images/products/ttn-064.svg",
     "isBestseller": false,
     "isSpecial": false,
     "tags": [
@@ -2606,7 +2606,7 @@
       }
     ],
     "description": "Layered sandwich bhakarwadi with double filling and crunch.",
-    "image": "/assets/images/products/ttn-065.svg",
+    "image": "assets/images/products/ttn-065.svg",
     "isBestseller": false,
     "isSpecial": false,
     "tags": [
@@ -2647,7 +2647,7 @@
       }
     ],
     "description": "Aromatic methi bhakarwadi with fenugreek spiced flavour.",
-    "image": "/assets/images/products/ttn-066.svg",
+    "image": "assets/images/products/ttn-066.svg",
     "isBestseller": false,
     "isSpecial": false,
     "tags": [
@@ -2688,7 +2688,7 @@
       }
     ],
     "description": "Homestyle sev mumra mix with puffed rice and crispy sev.",
-    "image": "/assets/images/products/ttn-067.svg",
+    "image": "assets/images/products/ttn-067.svg",
     "isBestseller": false,
     "isSpecial": false,
     "tags": [
@@ -2728,7 +2728,7 @@
       }
     ],
     "description": "Healthy diet bhel mix with baked ingredients and light spices.",
-    "image": "/assets/images/products/ttn-068.svg",
+    "image": "assets/images/products/ttn-068.svg",
     "isBestseller": false,
     "isSpecial": true,
     "tags": [
@@ -2768,7 +2768,7 @@
       }
     ],
     "description": "Classic Bombay bhel mix with tangy spicy chaat flavour profile.",
-    "image": "/assets/images/products/ttn-069.svg",
+    "image": "assets/images/products/ttn-069.svg",
     "isBestseller": false,
     "isSpecial": false,
     "tags": [
@@ -2808,7 +2808,7 @@
       }
     ],
     "description": "Crunchy corn flakes chivda with sweet spicy masala coating.",
-    "image": "/assets/images/products/ttn-070.svg",
+    "image": "assets/images/products/ttn-070.svg",
     "isBestseller": false,
     "isSpecial": false,
     "tags": [
@@ -2848,7 +2848,7 @@
       }
     ],
     "description": "Healthy diet chivda with light roasted ingredients and minimal oil.",
-    "image": "/assets/images/products/ttn-071.svg",
+    "image": "assets/images/products/ttn-071.svg",
     "isBestseller": false,
     "isSpecial": false,
     "tags": [
@@ -2888,7 +2888,7 @@
       }
     ],
     "description": "Classic poha chivda with crispy flattened rice curry leaves peanuts.",
-    "image": "/assets/images/products/ttn-072.svg",
+    "image": "assets/images/products/ttn-072.svg",
     "isBestseller": true,
     "isSpecial": false,
     "tags": [
@@ -2928,7 +2928,7 @@
       }
     ],
     "description": "Extra thin nylon poha chivda with light crispy delicate texture.",
-    "image": "/assets/images/products/ttn-073.svg",
+    "image": "assets/images/products/ttn-073.svg",
     "isBestseller": false,
     "isSpecial": false,
     "tags": [
@@ -2968,7 +2968,7 @@
       }
     ],
     "description": "Fasting-friendly farali chivda made with sabudana and peanuts.",
-    "image": "/assets/images/products/ttn-074.svg",
+    "image": "assets/images/products/ttn-074.svg",
     "isBestseller": false,
     "isSpecial": false,
     "tags": [
@@ -3008,7 +3008,7 @@
       }
     ],
     "description": "Crispy Gujarati fafda with chickpea flour and authentic taste.",
-    "image": "/assets/images/products/ttn-075.svg",
+    "image": "assets/images/products/ttn-075.svg",
     "isBestseller": false,
     "isSpecial": false,
     "tags": [
@@ -3040,7 +3040,7 @@
       }
     ],
     "description": "Crunchy almond cookie sticks loaded with almond flakes for a delightful tea-time treat.",
-    "image": "/assets/images/products/ttn-076.webp",
+    "image": "assets/images/products/ttn-076.webp",
     "isBestseller": false,
     "isSpecial": false,
     "tags": ["cookies", "almond", "tea-time"],
@@ -3068,7 +3068,7 @@
       }
     ],
     "description": "Rich almond and pistachio cookies with a buttery crunch and nutty flavour.",
-    "image": "/assets/images/products/ttn-077.webp",
+    "image": "assets/images/products/ttn-077.webp",
     "isBestseller": false,
     "isSpecial": false,
     "tags": ["cookies", "badam", "pista", "nuts"],
@@ -3096,7 +3096,7 @@
       }
     ],
     "description": "Healthy pearl millet cookies with earthy flavour and crispy texture.",
-    "image": "/assets/images/products/ttn-078.webp",
+    "image": "assets/images/products/ttn-078.webp",
     "isBestseller": false,
     "isSpecial": false,
     "tags": ["cookies", "bajri", "millet", "healthy"],
@@ -3124,7 +3124,7 @@
       }
     ],
     "description": "Rich chocolate cookies loaded with crunchy nuts for an indulgent experience.",
-    "image": "/assets/images/products/ttn-079.webp",
+    "image": "assets/images/products/ttn-079.webp",
     "isBestseller": false,
     "isSpecial": false,
     "tags": ["cookies", "chocolate", "nuts"],
@@ -3152,7 +3152,7 @@
       }
     ],
     "description": "Wholesome chocolate oats cookies combining rich cocoa with healthy rolled oats.",
-    "image": "/assets/images/products/ttn-080.webp",
+    "image": "assets/images/products/ttn-080.webp",
     "isBestseller": false,
     "isSpecial": false,
     "tags": ["cookies", "chocolate", "oats", "healthy"],
@@ -3180,7 +3180,7 @@
       }
     ],
     "description": "Fragrant coconut cookies delicately spiced with cardamom for a classic Indian flavour.",
-    "image": "/assets/images/products/ttn-081.webp",
+    "image": "assets/images/products/ttn-081.webp",
     "isBestseller": false,
     "isSpecial": false,
     "tags": ["cookies", "coconut", "elaichi", "cardamom"],
@@ -3208,7 +3208,7 @@
       }
     ],
     "description": "Decadent dark chocolate cookies with intense cocoa flavour and crisp bite.",
-    "image": "/assets/images/products/ttn-082.webp",
+    "image": "assets/images/products/ttn-082.webp",
     "isBestseller": false,
     "isSpecial": false,
     "tags": ["cookies", "dark-chocolate", "premium"],
@@ -3236,7 +3236,7 @@
       }
     ],
     "description": "Premium cookies packed with assorted dry fruits for a rich, indulgent bite.",
-    "image": "/assets/images/products/ttn-083.webp",
+    "image": "assets/images/products/ttn-083.webp",
     "isBestseller": false,
     "isSpecial": false,
     "tags": ["cookies", "dryfruit", "premium", "nuts"],
@@ -3264,7 +3264,7 @@
       }
     ],
     "description": "Fasting-friendly cookies made with rajgira flour and sendha namak for upvas days.",
-    "image": "/assets/images/products/ttn-084.webp",
+    "image": "assets/images/products/ttn-084.webp",
     "isBestseller": false,
     "isSpecial": false,
     "tags": ["cookies", "farali", "upvas", "fasting"],
@@ -3292,7 +3292,7 @@
       }
     ],
     "description": "Savory cumin-flavoured cookies with a unique spicy twist for tea-time.",
-    "image": "/assets/images/products/ttn-085.webp",
+    "image": "assets/images/products/ttn-085.webp",
     "isBestseller": false,
     "isSpecial": false,
     "tags": ["cookies", "jeera", "cumin", "savory"],
@@ -3320,7 +3320,7 @@
       }
     ],
     "description": "Royal saffron-infused cookies with almonds and pistachios for a rich melt-in-mouth experience.",
-    "image": "/assets/images/products/ttn-086.webp",
+    "image": "assets/images/products/ttn-086.webp",
     "isBestseller": false,
     "isSpecial": false,
     "tags": ["cookies", "kesar", "badam", "pista", "premium"],
@@ -3348,7 +3348,7 @@
       }
     ],
     "description": "Traditional Indian long-shaped cookie with crisp layers and subtle sweetness.",
-    "image": "/assets/images/products/ttn-087.webp",
+    "image": "assets/images/products/ttn-087.webp",
     "isBestseller": false,
     "isSpecial": false,
     "tags": ["cookies", "lamdi", "traditional"],
@@ -3376,7 +3376,7 @@
       }
     ],
     "description": "Twice-baked crunchy rusk made with rich mawa (khoya), perfect with chai.",
-    "image": "/assets/images/products/ttn-088.webp",
+    "image": "assets/images/products/ttn-088.webp",
     "isBestseller": false,
     "isSpecial": false,
     "tags": ["cookies", "mawa", "rusk", "tea-time"],
@@ -3404,7 +3404,7 @@
       }
     ],
     "description": "Healthy cookies made with mixed pulse flour sweetened with natural jaggery.",
-    "image": "/assets/images/products/ttn-089.webp",
+    "image": "assets/images/products/ttn-089.webp",
     "isBestseller": false,
     "isSpecial": false,
     "tags": ["cookies", "pulses", "jaggery", "healthy"],
@@ -3432,7 +3432,7 @@
       }
     ],
     "description": "Protein-rich moong dal cookies with a crumbly texture and subtle nutty taste.",
-    "image": "/assets/images/products/ttn-090.webp",
+    "image": "assets/images/products/ttn-090.webp",
     "isBestseller": false,
     "isSpecial": false,
     "tags": ["cookies", "moongdal", "protein", "healthy"],
@@ -3460,7 +3460,7 @@
       }
     ],
     "description": "Nutritious multigrain cookies sweetened with jaggery for a guilt-free indulgence.",
-    "image": "/assets/images/products/ttn-091.webp",
+    "image": "assets/images/products/ttn-091.webp",
     "isBestseller": false,
     "isSpecial": false,
     "tags": ["cookies", "multigrain", "jaggery", "healthy"],
@@ -3488,7 +3488,7 @@
       }
     ],
     "description": "Healthy finger millet (nachni) cookies with an earthy flavour and wholesome crunch.",
-    "image": "/assets/images/products/ttn-092.webp",
+    "image": "assets/images/products/ttn-092.webp",
     "isBestseller": false,
     "isSpecial": false,
     "tags": ["cookies", "nachni", "ragi", "millet", "healthy"],
@@ -3516,7 +3516,7 @@
       }
     ],
     "description": "Traditional Indian nankhatai with crushed pistachios, crumbly and melt-in-mouth.",
-    "image": "/assets/images/products/ttn-093.webp",
+    "image": "assets/images/products/ttn-093.webp",
     "isBestseller": false,
     "isSpecial": false,
     "tags": ["cookies", "pista", "nankhatai", "traditional"],
@@ -3544,7 +3544,7 @@
       }
     ],
     "description": "Protein-packed sattu cookies naturally sweetened with jaggery for energy.",
-    "image": "/assets/images/products/ttn-094.webp",
+    "image": "assets/images/products/ttn-094.webp",
     "isBestseller": false,
     "isSpecial": false,
     "tags": ["cookies", "sattu", "jaggery", "healthy", "protein"],
@@ -3572,7 +3572,7 @@
       }
     ],
     "description": "Classic English-style Shrewsbury cookies with a buttery crumb and delicate sweetness.",
-    "image": "/assets/images/products/ttn-095.webp",
+    "image": "assets/images/products/ttn-095.webp",
     "isBestseller": false,
     "isSpecial": false,
     "tags": ["cookies", "shrewsbury", "classic", "butter"],
@@ -3600,7 +3600,7 @@
       }
     ],
     "description": "Authentic Surati-style nankhatai with rich ghee flavour and crumbly texture.",
-    "image": "/assets/images/products/ttn-096.webp",
+    "image": "assets/images/products/ttn-096.webp",
     "isBestseller": false,
     "isSpecial": false,
     "tags": ["cookies", "surti", "nankhatai", "traditional"],
@@ -3628,7 +3628,7 @@
       }
     ],
     "description": "Delightful vanilla and chocolate swirl cookies with a perfect balance of flavours.",
-    "image": "/assets/images/products/ttn-097.webp",
+    "image": "assets/images/products/ttn-097.webp",
     "isBestseller": false,
     "isSpecial": false,
     "tags": ["cookies", "vanilla", "chocolate"],
