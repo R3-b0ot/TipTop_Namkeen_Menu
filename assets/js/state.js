@@ -1,5 +1,5 @@
 const STORAGE_KEY = 'ttn_cart_persistent_v1';
-const WHATSAPP_NUMBER = '919000000000';
+const WHATSAPP_NUMBER = '919999999999';
 
 class StoreStateManager {
   constructor() {
@@ -214,7 +214,7 @@ class StoreStateManager {
       'Thank you for choosing TipTop Namkeen! 🙏'
     ].filter(Boolean).join('\n');
     const encoded = encodeURIComponent(body);
-    return `https://api.whatsapp.com/send?phone=${WHATSAPP_NUMBER}&text=${encoded}`;
+    return `https://wa.me/${WHATSAPP_NUMBER}?text=${encoded}`;
   }
 }
 

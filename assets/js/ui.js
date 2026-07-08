@@ -53,7 +53,7 @@
         p.isSpecial ? '<span class="badge badge-hot">Special</span>' : '',
       ].filter(Boolean).join('');
       return `
-        <div class="product-card" data-id="${p.id}" onclick="window.location.href='/product.html?id=${p.id}'">
+        <div class="product-card" data-id="${p.id}" onclick="window.location.href='product.html?id=${p.id}'">
           <div class="product-card-img-wrap">
             <img class="product-card-img" src="${p.image}" alt="${p.name}" loading="lazy" />
             <div class="product-card-badges">${badges}</div>
@@ -122,16 +122,6 @@
         '</div></div>';
     }).join('');
 
-    DOM.cartItems.addEventListener('click', function(e) {
-      var btn = e.target.closest('.cart-qty-btn, .cart-item-remove');
-      if (!btn) return;
-      var key = btn.closest('.cart-item').dataset.key;
-      var action = btn.dataset.action;
-      if (action === 'inc') store.updateQty(key, 1);
-      else if (action === 'dec') store.updateQty(key, -1);
-      else if (action === 'remove') store.removeFromCart(key);
-    });
-
     DOM.checkoutForm.classList.add('show');
     DOM.checkoutBtn.textContent = 'Order Now • ₹' + store.cartTotal;
   }
@@ -146,6 +136,7 @@
       if (el.parentNode) el.parentNode.removeChild(el);
     }, 3000);
   }
+  window.showToast = showToast;
 
   function openCart() {
     DOM.cartOverlay.classList.add('open');
@@ -163,8 +154,24 @@
   if (DOM.cartClose) DOM.cartClose.addEventListener('click', closeCart);
   if (DOM.cartOverlay) DOM.cartOverlay.addEventListener('click', closeCart);
 
+  if (DOM.cartItems) {
+    DOM.cartItems.addEventListener('click', function(e) {
+      var btn = e.target.closest('.cart-qty-btn, .cart-item-remove');
+      if (!btn) return;
+      var key = btn.closest('.cart-item').dataset.key;
+      var action = btn.dataset.action;
+      if (action === 'inc') store.updateQty(key, 1);
+      else if (action === 'dec') store.updateQty(key, -1);
+      else if (action === 'remove') store.removeFromCart(key);
+    });
+  }
+
   if (DOM.checkoutBtn) {
     DOM.checkoutBtn.addEventListener('click', function() {
+      if (store.cartCount === 0) {
+        showToast('Your cart is empty');
+        return;
+      }
       var name = $('#checkout-name');
       var address = $('#checkout-address');
       var notes = $('#checkout-notes');
@@ -177,6 +184,12 @@
       }
       var url = store.buildWhatsAppOrder(nv, av, nts);
       window.open(url, '_blank');
+      store.clearCart();
+      if (name) name.value = '';
+      if (address) address.value = '';
+      if (notes) notes.value = '';
+      closeCart();
+      showToast('Order placed! Check WhatsApp to send.');
     });
   }
 
