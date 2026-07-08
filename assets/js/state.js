@@ -1,5 +1,5 @@
 const STORAGE_KEY = 'ttn_cart_persistent_v1';
-const WHATSAPP_NUMBER = '919999999999';
+const WHATSAPP_NUMBER = '919869048490';
 
 class StoreStateManager {
   constructor() {
