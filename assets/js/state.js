@@ -187,32 +187,30 @@ class StoreStateManager {
     return this.catalog.filter(p => p.category === cat);
   }
 
-  buildWhatsAppOrder(customerName, customerAddress, notes) {
+  buildWhatsAppOrder(details) {
     const items = this.getCartItems();
     const lines = items.map(i => {
       const w = i.product.weightOptions.find(o => o.label === i.weight) || i.product.weightOptions[0];
       const itemTotal = i.product.price * w.priceMultiplier * i.qty;
-      return `• ${i.product.name} (${i.weight}) × ${i.qty} = ₹${itemTotal}`;
+      const weightG = parseInt(w.label) || 0;
+      return `* ${i.product.name} — ${weightG} gm × ${i.qty} @ ₹${i.product.price} = ₹${itemTotal}`;
     });
-    const header = '🧆 *TipTop Namkeen — Order Receipt*';
-    const divider = '─────────────────────';
     const body = [
-      header,
-      divider,
+      'TipTop Namkeen — New Order',
       '',
+      'Customer:',
+      `* Name: ${details.name || 'N/A'}`,
+      `* Phone: ${details.phone || 'N/A'}`,
+      `* Address: ${details.address || 'N/A'}`,
+      `* Landmark: ${details.landmark || '-'}`,
+      `* Pincode: ${details.pincode || 'N/A'}`,
+      `* Type: Delivery`,
+      '',
+      'Items:',
       ...lines,
       '',
-      divider,
-      `*Total: ₹${this.cartTotal}*`,
-      '',
-      divider,
-      `*Customer:* ${customerName || 'N/A'}`,
-      `*Address:* ${customerAddress || 'N/A'}`,
-      notes ? `*Notes:* ${notes}` : '',
-      '',
-      divider,
-      'Thank you for choosing TipTop Namkeen! 🙏'
-    ].filter(Boolean).join('\n');
+      `Grand Total: ₹${this.cartTotal}`
+    ].join('\n');
     const encoded = encodeURIComponent(body);
     return `https://wa.me/${WHATSAPP_NUMBER}?text=${encoded}`;
   }

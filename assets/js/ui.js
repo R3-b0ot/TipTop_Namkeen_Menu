@@ -186,21 +186,27 @@
           return;
         }
         var name = $('#checkout-name');
+        var phone = $('#checkout-phone');
         var address = $('#checkout-address');
-        var notes = $('#checkout-notes');
+        var landmark = $('#checkout-landmark');
+        var pincode = $('#checkout-pincode');
         var nv = name ? name.value.trim() : '';
+        var pv = phone ? phone.value.trim() : '';
         var av = address ? address.value.trim() : '';
-        var nts = notes ? notes.value.trim() : '';
-        if (!nv || !av) {
-          showToast('Please fill in your name and address');
+        var lv = landmark ? landmark.value.trim() : '';
+        var pincv = pincode ? pincode.value.trim() : '';
+        if (!nv || !pv || !av || !pincv) {
+          showToast('Please fill in name, phone, address, and pincode');
           return;
         }
-        var url = store.buildWhatsAppOrder(nv, av, nts);
+        var url = store.buildWhatsAppOrder({ name: nv, phone: pv, address: av, landmark: lv, pincode: pincv });
         window.open(url, '_blank');
         store.clearCart();
         if (name) name.value = '';
+        if (phone) phone.value = '';
         if (address) address.value = '';
-        if (notes) notes.value = '';
+        if (landmark) landmark.value = '';
+        if (pincode) pincode.value = '';
         closeCart();
         showToast('Order placed! Check WhatsApp to send.');
       });
