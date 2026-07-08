@@ -1,0 +1,25 @@
+# Secrets & internal data
+_data/
+secrets/
+
+# IDE configs & launch files
+.vscode/
+.idea/
+configs/
+launch/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Flutter / Dart
+.dart_tool/
+.packages
+*.lock
+build/
+
+# Node / tooling
+node_modules/
