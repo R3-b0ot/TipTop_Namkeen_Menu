@@ -1,0 +1,3646 @@
+[
+  {
+    "id": "TTN-001",
+    "name": "Besan Papdi",
+    "category": "Papdi",
+    "price": 80,
+    "baseWeight": "250g",
+    "weightOptions": [
+      {
+        "label": "250g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 1.9
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 3.6
+      }
+    ],
+    "description": "Crispy gram flour papdi, perfect tea-time snack with authentic Indian spices.",
+    "image": "/assets/images/products/ttn-001.svg",
+    "isBestseller": true,
+    "isSpecial": false,
+    "tags": [
+      "crunchy",
+      "tea-time"
+    ],
+    "inStock": true,
+    "ingredients": "Whole wheat flour, refined oil, salt, carom seeds, ajwain, baking soda",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 490,
+      "fat": "25g",
+      "carbs": "55g",
+      "protein": "10g",
+      "fiber": "3g"
+    }
+  },
+  {
+    "id": "TTN-002",
+    "name": "Masala Papdi",
+    "category": "Papdi",
+    "price": 80,
+    "baseWeight": "250g",
+    "weightOptions": [
+      {
+        "label": "250g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 1.9
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 3.6
+      }
+    ],
+    "description": "Spiced masala papdi with aromatic seasonings and crispy texture.",
+    "image": "/assets/images/products/ttn-002.svg",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": [
+      "spicy",
+      "crunchy"
+    ],
+    "inStock": true,
+    "ingredients": "Whole wheat flour, refined oil, salt, carom seeds, ajwain, baking soda",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 495,
+      "fat": "26g",
+      "carbs": "54g",
+      "protein": "10g",
+      "fiber": "3g"
+    }
+  },
+  {
+    "id": "TTN-003",
+    "name": "Bhavnagari Gathiya",
+    "category": "Gathiya",
+    "price": 80,
+    "baseWeight": "250g",
+    "weightOptions": [
+      {
+        "label": "250g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 1.9
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 3.6
+      }
+    ],
+    "description": "Authentic Bhavnagar style gathiya with thick crunchy besan sticks.",
+    "image": "/assets/images/products/ttn-003.svg",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": [
+      "crunchy",
+      "traditional"
+    ],
+    "inStock": true,
+    "ingredients": "Besan (gram flour), edible vegetable oil, salt, red chilli powder, turmeric, asafoetida (hing)",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 510,
+      "fat": "28g",
+      "carbs": "50g",
+      "protein": "12g",
+      "fiber": "4g"
+    }
+  },
+  {
+    "id": "TTN-004",
+    "name": "Jaada Gathiya",
+    "category": "Gathiya",
+    "price": 80,
+    "baseWeight": "250g",
+    "weightOptions": [
+      {
+        "label": "250g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 1.9
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 3.6
+      }
+    ],
+    "description": "Thick and crunchy jaada gathiya made from premium gram flour.",
+    "image": "/assets/images/products/ttn-004.svg",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": [
+      "crunchy",
+      "traditional"
+    ],
+    "inStock": true,
+    "ingredients": "Besan (gram flour), edible vegetable oil, salt, red chilli powder, turmeric, asafoetida (hing)",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 515,
+      "fat": "29g",
+      "carbs": "49g",
+      "protein": "12g",
+      "fiber": "4g"
+    }
+  },
+  {
+    "id": "TTN-005",
+    "name": "Marwadi Sev",
+    "category": "Sev",
+    "price": 80,
+    "baseWeight": "250g",
+    "weightOptions": [
+      {
+        "label": "250g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 1.9
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 3.6
+      }
+    ],
+    "description": "Traditional Marwadi style sev with rich spicy flavour and crunch.",
+    "image": "/assets/images/products/ttn-005.svg",
+    "isBestseller": true,
+    "isSpecial": false,
+    "tags": [
+      "spicy",
+      "crunchy",
+      "traditional"
+    ],
+    "inStock": true,
+    "ingredients": "Besan (gram flour), edible vegetable oil, salt, turmeric, asafoetida, red chilli powder, carom seeds",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 520,
+      "fat": "30g",
+      "carbs": "48g",
+      "protein": "13g",
+      "fiber": "3g"
+    }
+  },
+  {
+    "id": "TTN-006",
+    "name": "Sev Pakodi",
+    "category": "Sev",
+    "price": 80,
+    "baseWeight": "250g",
+    "weightOptions": [
+      {
+        "label": "250g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 1.9
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 3.6
+      }
+    ],
+    "description": "Crunchy sev pakodi blend with perfect balance of spices.",
+    "image": "/assets/images/products/ttn-006.svg",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": [
+      "crunchy",
+      "spicy",
+      "tea-time"
+    ],
+    "inStock": true,
+    "ingredients": "Besan (gram flour), edible vegetable oil, salt, turmeric, asafoetida, red chilli powder, carom seeds",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 510,
+      "fat": "28g",
+      "carbs": "50g",
+      "protein": "12g",
+      "fiber": "3g"
+    }
+  },
+  {
+    "id": "TTN-007",
+    "name": "Jaadi Sev",
+    "category": "Sev",
+    "price": 80,
+    "baseWeight": "250g",
+    "weightOptions": [
+      {
+        "label": "250g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 1.9
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 3.6
+      }
+    ],
+    "description": "Thick jaadi sev with robust crunch and authentic Indian seasoning.",
+    "image": "/assets/images/products/ttn-007.svg",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": [
+      "spicy",
+      "crunchy"
+    ],
+    "inStock": true,
+    "ingredients": "Besan (gram flour), edible vegetable oil, salt, turmeric, asafoetida, red chilli powder, carom seeds",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 515,
+      "fat": "29g",
+      "carbs": "49g",
+      "protein": "13g",
+      "fiber": "3g"
+    }
+  },
+  {
+    "id": "TTN-008",
+    "name": "Dal Moth",
+    "category": "Traditional",
+    "price": 80,
+    "baseWeight": "250g",
+    "weightOptions": [
+      {
+        "label": "250g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 1.9
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 3.6
+      }
+    ],
+    "description": "Crispy dal moth mix with lentils and tangy spice coating.",
+    "image": "/assets/images/products/ttn-008.svg",
+    "isBestseller": true,
+    "isSpecial": false,
+    "tags": [
+      "crunchy",
+      "traditional",
+      "party-snack"
+    ],
+    "inStock": true,
+    "ingredients": "Bengal gram dal, peanuts, edible vegetable oil, salt, red chilli powder, turmeric, mango powder, asafoetida",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 460,
+      "fat": "22g",
+      "carbs": "55g",
+      "protein": "14g",
+      "fiber": "5g"
+    }
+  },
+  {
+    "id": "TTN-009",
+    "name": "Bhel Ki Sev",
+    "category": "Sev",
+    "price": 80,
+    "baseWeight": "250g",
+    "weightOptions": [
+      {
+        "label": "250g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 1.9
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 3.6
+      }
+    ],
+    "description": "Thin sev specially made for bhel puri with light crispiness.",
+    "image": "/assets/images/products/ttn-009.svg",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": [
+      "light",
+      "crunchy",
+      "party-snack"
+    ],
+    "inStock": true,
+    "ingredients": "Besan (gram flour), edible vegetable oil, salt, turmeric, asafoetida, red chilli powder, carom seeds",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 505,
+      "fat": "27g",
+      "carbs": "51g",
+      "protein": "12g",
+      "fiber": "3g"
+    }
+  },
+  {
+    "id": "TTN-010",
+    "name": "0 No. Sev",
+    "category": "Sev",
+    "price": 90,
+    "baseWeight": "250g",
+    "weightOptions": [
+      {
+        "label": "250g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 1.9
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 3.6
+      }
+    ],
+    "description": "Extra fine zero number sev with delicate melt-in-mouth texture.",
+    "image": "/assets/images/products/ttn-010.svg",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": [
+      "light",
+      "crunchy"
+    ],
+    "inStock": true,
+    "ingredients": "Besan (gram flour), edible vegetable oil, salt, turmeric, asafoetida, red chilli powder, carom seeds",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 500,
+      "fat": "27g",
+      "carbs": "51g",
+      "protein": "12g",
+      "fiber": "3g"
+    }
+  },
+  {
+    "id": "TTN-011",
+    "name": "Ratlami Sev",
+    "category": "Sev",
+    "price": 90,
+    "baseWeight": "250g",
+    "weightOptions": [
+      {
+        "label": "250g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 1.9
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 3.6
+      }
+    ],
+    "description": "Famous Ratlami sev with bold garlic and spice flavour.",
+    "image": "/assets/images/products/ttn-011.svg",
+    "isBestseller": true,
+    "isSpecial": false,
+    "tags": [
+      "spicy",
+      "crunchy",
+      "traditional"
+    ],
+    "inStock": true,
+    "ingredients": "Besan (gram flour), edible vegetable oil, salt, turmeric, asafoetida, red chilli powder, carom seeds",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 520,
+      "fat": "30g",
+      "carbs": "48g",
+      "protein": "13g",
+      "fiber": "3g"
+    }
+  },
+  {
+    "id": "TTN-012",
+    "name": "Pakodi",
+    "category": "Traditional",
+    "price": 80,
+    "baseWeight": "250g",
+    "weightOptions": [
+      {
+        "label": "250g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 1.9
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 3.6
+      }
+    ],
+    "description": "Crispy traditional pakodi made with gram flour and authentic spices.",
+    "image": "/assets/images/products/ttn-012.svg",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": [
+      "spicy",
+      "crunchy",
+      "tea-time",
+      "Pakodi"
+    ],
+    "inStock": true,
+    "ingredients": "Besan (gram flour), edible vegetable oil, salt, red chilli powder, turmeric, asafoetida, carom seeds",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 500,
+      "fat": "27g",
+      "carbs": "50g",
+      "protein": "11g",
+      "fiber": "3g"
+    }
+  },
+  {
+    "id": "TTN-013",
+    "name": "Masala Pakodi",
+    "category": "Traditional",
+    "price": 80,
+    "baseWeight": "250g",
+    "weightOptions": [
+      {
+        "label": "250g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 1.9
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 3.6
+      }
+    ],
+    "description": "Zesty masala pakodi with aromatic spice blend and crunchy texture.",
+    "image": "/assets/images/products/ttn-013.svg",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": [
+      "spicy",
+      "crunchy",
+      "tea-time",
+      "Masala Pakodi"
+    ],
+    "inStock": true,
+    "ingredients": "Besan (gram flour), edible vegetable oil, salt, red chilli powder, garam masala, turmeric, asafoetida, carom seeds",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 505,
+      "fat": "28g",
+      "carbs": "49g",
+      "protein": "11g",
+      "fiber": "3g"
+    }
+  },
+  {
+    "id": "TTN-014",
+    "name": "Yellow Banana Wafer",
+    "category": "Banana Wafers",
+    "price": 100,
+    "baseWeight": "250g",
+    "weightOptions": [
+      {
+        "label": "250g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 1.9
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 3.6
+      }
+    ],
+    "description": "Classic yellow banana wafers with natural sweetness and crispiness.",
+    "image": "/assets/images/products/ttn-014.svg",
+    "isBestseller": true,
+    "isSpecial": false,
+    "tags": [
+      "crunchy",
+      "sweet",
+      "kids-favorite"
+    ],
+    "inStock": true,
+    "ingredients": "Raw banana, coconut oil, salt, turmeric",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 480,
+      "fat": "24g",
+      "carbs": "58g",
+      "protein": "3g",
+      "fiber": "4g"
+    }
+  },
+  {
+    "id": "TTN-015",
+    "name": "Masala Banana Wafer",
+    "category": "Banana Wafers",
+    "price": 100,
+    "baseWeight": "250g",
+    "weightOptions": [
+      {
+        "label": "250g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 1.9
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 3.6
+      }
+    ],
+    "description": "Spicy masala coated banana wafers with sweet and savoury punch.",
+    "image": "/assets/images/products/ttn-015.svg",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": [
+      "spicy",
+      "crunchy",
+      "sweet"
+    ],
+    "inStock": true,
+    "ingredients": "Raw banana, sunflower oil, salt, turmeric, red chilli powder, garam masala, mango powder",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 485,
+      "fat": "25g",
+      "carbs": "57g",
+      "protein": "3g",
+      "fiber": "4g"
+    }
+  },
+  {
+    "id": "TTN-016",
+    "name": "Kara Mari Banana Wafer",
+    "category": "Banana Wafers",
+    "price": 100,
+    "baseWeight": "250g",
+    "weightOptions": [
+      {
+        "label": "250g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 1.9
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 3.6
+      }
+    ],
+    "description": "Traditional kara mari banana chips with spicy chilli coating.",
+    "image": "/assets/images/products/ttn-016.svg",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": [
+      "spicy",
+      "crunchy",
+      "traditional"
+    ],
+    "inStock": true,
+    "ingredients": "Raw banana, coconut oil, salt, turmeric, red chilli powder, garlic powder",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 485,
+      "fat": "25g",
+      "carbs": "57g",
+      "protein": "3g",
+      "fiber": "4g"
+    }
+  },
+  {
+    "id": "TTN-017",
+    "name": "Pudina Banana Wafer",
+    "category": "Banana Wafers",
+    "price": 120,
+    "baseWeight": "250g",
+    "weightOptions": [
+      {
+        "label": "250g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 1.9
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 3.6
+      }
+    ],
+    "description": "Refreshing pudina mint flavoured banana wafers with cool crunchy taste.",
+    "image": "/assets/images/products/ttn-017.svg",
+    "isBestseller": false,
+    "isSpecial": true,
+    "tags": [
+      "crunchy",
+      "sweet",
+      "kids-favorite",
+      "Pudina"
+    ],
+    "inStock": true,
+    "ingredients": "Raw banana, sunflower oil, salt, turmeric, dried mint powder, green chilli, cumin powder",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 480,
+      "fat": "24g",
+      "carbs": "58g",
+      "protein": "3g",
+      "fiber": "4g"
+    }
+  },
+  {
+    "id": "TTN-018",
+    "name": "Cheese Banana Wafer",
+    "category": "Banana Wafers",
+    "price": 120,
+    "baseWeight": "250g",
+    "weightOptions": [
+      {
+        "label": "250g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 1.9
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 3.6
+      }
+    ],
+    "description": "Savory cheese flavoured banana wafers with creamy tangy deliciousness.",
+    "image": "/assets/images/products/ttn-018.svg",
+    "isBestseller": false,
+    "isSpecial": true,
+    "tags": [
+      "crunchy",
+      "sweet",
+      "kids-favorite",
+      "Cheese"
+    ],
+    "inStock": true,
+    "ingredients": "Raw banana, palm olein oil, salt, turmeric, cheese powder, milk solids, edible vegetable oil",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 500,
+      "fat": "28g",
+      "carbs": "55g",
+      "protein": "5g",
+      "fiber": "3g"
+    }
+  },
+  {
+    "id": "TTN-019",
+    "name": "Peri Peri Banana Wafer",
+    "category": "Banana Wafers",
+    "price": 120,
+    "baseWeight": "250g",
+    "weightOptions": [
+      {
+        "label": "250g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 1.9
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 3.6
+      }
+    ],
+    "description": "Spicy peri peri banana wafers with bold fiery flavour and crunch.",
+    "image": "/assets/images/products/ttn-019.svg",
+    "isBestseller": false,
+    "isSpecial": true,
+    "tags": [
+      "crunchy",
+      "sweet",
+      "kids-favorite",
+      "Peri Peri"
+    ],
+    "inStock": true,
+    "ingredients": "Raw banana, sunflower oil, salt, turmeric, peri peri seasoning (red chilli, oregano, garlic, onion powder), citric acid",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 490,
+      "fat": "26g",
+      "carbs": "56g",
+      "protein": "3g",
+      "fiber": "4g"
+    }
+  },
+  {
+    "id": "TTN-020",
+    "name": "Tomato Banana Wafer",
+    "category": "Banana Wafers",
+    "price": 120,
+    "baseWeight": "250g",
+    "weightOptions": [
+      {
+        "label": "250g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 1.9
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 3.6
+      }
+    ],
+    "description": "Tangy tomato flavoured banana wafers with zesty lip-smacking taste.",
+    "image": "/assets/images/products/ttn-020.svg",
+    "isBestseller": false,
+    "isSpecial": true,
+    "tags": [
+      "crunchy",
+      "sweet",
+      "kids-favorite",
+      "Tomato"
+    ],
+    "inStock": true,
+    "ingredients": "Raw banana, sunflower oil, salt, turmeric, tomato powder, sugar, citric acid, onion powder",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 485,
+      "fat": "25g",
+      "carbs": "57g",
+      "protein": "3g",
+      "fiber": "4g"
+    }
+  },
+  {
+    "id": "TTN-021",
+    "name": "Peri Peri Banana Finger Chips",
+    "category": "Banana Wafers",
+    "price": 150,
+    "baseWeight": "250g",
+    "weightOptions": [
+      {
+        "label": "250g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 1.9
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 3.6
+      }
+    ],
+    "description": "Bold peri peri banana finger chips with fiery spicy seasoning.",
+    "image": "/assets/images/products/ttn-021.svg",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": [
+      "crunchy",
+      "sweet",
+      "party-snack",
+      "Peri Peri"
+    ],
+    "inStock": true,
+    "ingredients": "Raw banana, sunflower oil, salt, turmeric, peri peri seasoning (red chilli, oregano, garlic, onion powder), citric acid",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 490,
+      "fat": "26g",
+      "carbs": "56g",
+      "protein": "3g",
+      "fiber": "4g"
+    }
+  },
+  {
+    "id": "TTN-022",
+    "name": "Cheese Banana Finger Chips",
+    "category": "Banana Wafers",
+    "price": 150,
+    "baseWeight": "250g",
+    "weightOptions": [
+      {
+        "label": "250g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 1.9
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 3.6
+      }
+    ],
+    "description": "Creamy cheese banana finger chips with rich savoury flavour.",
+    "image": "/assets/images/products/ttn-022.svg",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": [
+      "crunchy",
+      "sweet",
+      "party-snack",
+      "Cheese"
+    ],
+    "inStock": true,
+    "ingredients": "Raw banana, palm olein oil, salt, turmeric, cheese powder, milk solids, edible vegetable oil",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 500,
+      "fat": "28g",
+      "carbs": "55g",
+      "protein": "5g",
+      "fiber": "3g"
+    }
+  },
+  {
+    "id": "TTN-023",
+    "name": "Tomato Banana Finger Chips",
+    "category": "Banana Wafers",
+    "price": 150,
+    "baseWeight": "250g",
+    "weightOptions": [
+      {
+        "label": "250g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 1.9
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 3.6
+      }
+    ],
+    "description": "Tangy tomato banana finger chips with zesty crunchy bite.",
+    "image": "/assets/images/products/ttn-023.svg",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": [
+      "crunchy",
+      "sweet",
+      "party-snack",
+      "Tomato"
+    ],
+    "inStock": true,
+    "ingredients": "Raw banana, sunflower oil, salt, turmeric, tomato powder, sugar, citric acid, onion powder",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 485,
+      "fat": "25g",
+      "carbs": "57g",
+      "protein": "3g",
+      "fiber": "4g"
+    }
+  },
+  {
+    "id": "TTN-024",
+    "name": "Mix Masala Banana Finger Chips",
+    "category": "Banana Wafers",
+    "price": 150,
+    "baseWeight": "250g",
+    "weightOptions": [
+      {
+        "label": "250g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 1.9
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 3.6
+      }
+    ],
+    "description": "Spiced mix masala banana finger chips with aromatic Indian flavours.",
+    "image": "/assets/images/products/ttn-024.svg",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": [
+      "crunchy",
+      "sweet",
+      "party-snack",
+      "Mix Masala"
+    ],
+    "inStock": true,
+    "ingredients": "Raw banana, sunflower oil, salt, turmeric, mixed masala (red chilli, coriander, cumin, mango powder, garam masala)",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 490,
+      "fat": "26g",
+      "carbs": "56g",
+      "protein": "3g",
+      "fiber": "4g"
+    }
+  },
+  {
+    "id": "TTN-025",
+    "name": "Banana Salli",
+    "category": "Banana Wafers",
+    "price": 120,
+    "baseWeight": "250g",
+    "weightOptions": [
+      {
+        "label": "250g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 1.9
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 3.6
+      }
+    ],
+    "description": "Thin and crispy banana salli with delicate melt-in-mouth texture.",
+    "image": "/assets/images/products/ttn-025.svg",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": [
+      "light",
+      "crunchy",
+      "sweet"
+    ],
+    "inStock": true,
+    "ingredients": "Raw banana, coconut oil, salt, turmeric",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 475,
+      "fat": "23g",
+      "carbs": "59g",
+      "protein": "3g",
+      "fiber": "4g"
+    }
+  },
+  {
+    "id": "TTN-026",
+    "name": "Karela Chips",
+    "category": "Traditional",
+    "price": 90,
+    "baseWeight": "250g",
+    "weightOptions": [
+      {
+        "label": "250g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 1.9
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 3.6
+      }
+    ],
+    "description": "Crispy bitter gourd chips with unique savoury flavour and crunch.",
+    "image": "/assets/images/products/ttn-026.svg",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": [
+      "savory",
+      "crunchy",
+      "healthy"
+    ],
+    "inStock": true,
+    "ingredients": "Raw bitter gourd (karela), edible vegetable oil, salt, turmeric, red chilli powder, mango powder",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 420,
+      "fat": "18g",
+      "carbs": "45g",
+      "protein": "8g",
+      "fiber": "8g"
+    }
+  },
+  {
+    "id": "TTN-027",
+    "name": "Bhajini Chakli",
+    "category": "Traditional",
+    "price": 55,
+    "baseWeight": "200g",
+    "weightOptions": [
+      {
+        "label": "200g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 2.3
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 4.5
+      }
+    ],
+    "description": "Traditional bhajini chakli with authentic flavour and spiral crunch.",
+    "image": "/assets/images/products/ttn-027.svg",
+    "isBestseller": true,
+    "isSpecial": false,
+    "tags": [
+      "crunchy",
+      "traditional",
+      "tea-time",
+      "Bhajini"
+    ],
+    "inStock": true,
+    "ingredients": "Rice flour, besan (gram flour), sesame seeds, edible vegetable oil, salt, red chilli powder, turmeric, asafoetida",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 510,
+      "fat": "28g",
+      "carbs": "52g",
+      "protein": "10g",
+      "fiber": "3g"
+    }
+  },
+  {
+    "id": "TTN-028",
+    "name": "Tukda Chakli",
+    "category": "Traditional",
+    "price": 55,
+    "baseWeight": "200g",
+    "weightOptions": [
+      {
+        "label": "200g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 2.3
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 4.5
+      }
+    ],
+    "description": "Crunchy tukda chakli pieces with buttery crispy texture.",
+    "image": "/assets/images/products/ttn-028.svg",
+    "isBestseller": true,
+    "isSpecial": false,
+    "tags": [
+      "crunchy",
+      "traditional",
+      "tea-time",
+      "Tukda"
+    ],
+    "inStock": true,
+    "ingredients": "Rice flour, besan (gram flour), refined oil, salt, carom seeds, turmeric, red chilli powder",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 505,
+      "fat": "27g",
+      "carbs": "53g",
+      "protein": "10g",
+      "fiber": "3g"
+    }
+  },
+  {
+    "id": "TTN-029",
+    "name": "Murukku Plain",
+    "category": "Traditional",
+    "price": 55,
+    "baseWeight": "200g",
+    "weightOptions": [
+      {
+        "label": "200g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 2.3
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 4.5
+      }
+    ],
+    "description": "Classic plain murukku with light crispy rice flour texture.",
+    "image": "/assets/images/products/ttn-029.svg",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": [
+      "crunchy",
+      "traditional",
+      "tea-time",
+      "Plain"
+    ],
+    "inStock": true,
+    "ingredients": "Rice flour, besan (gram flour), edible vegetable oil, salt, carom seeds, sesame seeds, asafoetida",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 500,
+      "fat": "26g",
+      "carbs": "54g",
+      "protein": "9g",
+      "fiber": "2g"
+    }
+  },
+  {
+    "id": "TTN-030",
+    "name": "Murukku Masala",
+    "category": "Traditional",
+    "price": 55,
+    "baseWeight": "200g",
+    "weightOptions": [
+      {
+        "label": "200g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 2.3
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 4.5
+      }
+    ],
+    "description": "Spicy masala murukku with bold seasoning and crunchy bite.",
+    "image": "/assets/images/products/ttn-030.svg",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": [
+      "crunchy",
+      "traditional",
+      "tea-time",
+      "Masala"
+    ],
+    "inStock": true,
+    "ingredients": "Rice flour, besan (gram flour), edible vegetable oil, salt, carom seeds, sesame seeds, asafoetida, red chilli powder, garam masala",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 505,
+      "fat": "27g",
+      "carbs": "53g",
+      "protein": "9g",
+      "fiber": "2g"
+    }
+  },
+  {
+    "id": "TTN-031",
+    "name": "Misal Mix",
+    "category": "Traditional",
+    "price": 80,
+    "baseWeight": "250g",
+    "weightOptions": [
+      {
+        "label": "250g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 1.9
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 3.6
+      }
+    ],
+    "description": "Spicy misal mix with crunchy farsan and traditional spices.",
+    "image": "/assets/images/products/ttn-031.svg",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": [
+      "spicy",
+      "crunchy",
+      "traditional"
+    ],
+    "inStock": true,
+    "ingredients": "Besan (gram flour), edible vegetable oil, poha, peanuts, coconut, curry leaves, mustard seeds, salt, red chilli powder, turmeric, sugar",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 440,
+      "fat": "20g",
+      "carbs": "52g",
+      "protein": "12g",
+      "fiber": "5g"
+    }
+  },
+  {
+    "id": "TTN-032",
+    "name": "Sing Bhujia",
+    "category": "Traditional",
+    "price": 80,
+    "baseWeight": "250g",
+    "weightOptions": [
+      {
+        "label": "250g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 1.9
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 3.6
+      }
+    ],
+    "description": "Crispy sing bhujia made from water chestnut flour with spice.",
+    "image": "/assets/images/products/ttn-032.svg",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": [
+      "crunchy",
+      "traditional",
+      "spicy"
+    ],
+    "inStock": true,
+    "ingredients": "Water chestnut (singhara) flour, edible vegetable oil, salt, black pepper, red chilli powder, carom seeds",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 450,
+      "fat": "19g",
+      "carbs": "58g",
+      "protein": "6g",
+      "fiber": "4g"
+    }
+  },
+  {
+    "id": "TTN-033",
+    "name": "Chana Dal",
+    "category": "Traditional",
+    "price": 80,
+    "baseWeight": "250g",
+    "weightOptions": [
+      {
+        "label": "250g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 1.9
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 3.6
+      }
+    ],
+    "description": "Crispy chana dal snack with peppery spice and protein crunch.",
+    "image": "/assets/images/products/ttn-033.svg",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": [
+      "crunchy",
+      "traditional",
+      "spicy"
+    ],
+    "inStock": true,
+    "ingredients": "Bengal gram dal (chana dal), edible vegetable oil, salt, red chilli powder, black pepper, mango powder",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 430,
+      "fat": "17g",
+      "carbs": "55g",
+      "protein": "15g",
+      "fiber": "6g"
+    }
+  },
+  {
+    "id": "TTN-034",
+    "name": "Mung Dal",
+    "category": "Traditional",
+    "price": 80,
+    "baseWeight": "250g",
+    "weightOptions": [
+      {
+        "label": "250g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 1.9
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 3.6
+      }
+    ],
+    "description": "Light and crunchy mung dal with subtle earthy flavour.",
+    "image": "/assets/images/products/ttn-034.svg",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": [
+      "light",
+      "crunchy",
+      "traditional"
+    ],
+    "inStock": true,
+    "ingredients": "Green gram dal (mung dal), edible vegetable oil, salt, black pepper, turmeric",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 410,
+      "fat": "15g",
+      "carbs": "56g",
+      "protein": "14g",
+      "fiber": "6g"
+    }
+  },
+  {
+    "id": "TTN-035",
+    "name": "Nadiyadi Bhoosa",
+    "category": "Traditional",
+    "price": 80,
+    "baseWeight": "250g",
+    "weightOptions": [
+      {
+        "label": "250g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 1.9
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 3.6
+      }
+    ],
+    "description": "Famous Nadiyadi bhoosa with light crispy texture and spice.",
+    "image": "/assets/images/products/ttn-035.svg",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": [
+      "light",
+      "crunchy",
+      "traditional"
+    ],
+    "inStock": true,
+    "ingredients": "Rice flour, besan (gram flour), edible vegetable oil, salt, red chilli powder, turmeric, carom seeds, asafoetida",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 500,
+      "fat": "26g",
+      "carbs": "54g",
+      "protein": "9g",
+      "fiber": "2g"
+    }
+  },
+  {
+    "id": "TTN-036",
+    "name": "Potato Wafer",
+    "category": "Potato Wafers",
+    "price": 30,
+    "baseWeight": "100g",
+    "weightOptions": [
+      {
+        "label": "100g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "250g",
+        "priceMultiplier": 2.33
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 4
+      }
+    ],
+    "description": "Classic salted potato wafers with thin crispy golden texture.",
+    "image": "/assets/images/products/ttn-036.svg",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": [
+      "crunchy",
+      "savory",
+      "tea-time"
+    ],
+    "inStock": true,
+    "ingredients": "Potato, edible vegetable oil, salt",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 520,
+      "fat": "32g",
+      "carbs": "54g",
+      "protein": "5g",
+      "fiber": "3g"
+    }
+  },
+  {
+    "id": "TTN-037",
+    "name": "Peri Peri Potato Wafer",
+    "category": "Potato Wafers",
+    "price": 150,
+    "baseWeight": "200g",
+    "weightOptions": [
+      {
+        "label": "200g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 2.3
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 4.5
+      }
+    ],
+    "description": "Bold peri peri potato wafers with fiery spicy seasoning.",
+    "image": "/assets/images/products/ttn-037.svg",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": [
+      "crunchy",
+      "savory",
+      "kids-favorite",
+      "Peri Peri"
+    ],
+    "inStock": true,
+    "ingredients": "Potato, edible vegetable oil, salt, peri peri seasoning (red chilli, oregano, garlic, onion powder), citric acid",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 525,
+      "fat": "33g",
+      "carbs": "53g",
+      "protein": "5g",
+      "fiber": "3g"
+    }
+  },
+  {
+    "id": "TTN-038",
+    "name": "Cheese Potato Wafer",
+    "category": "Potato Wafers",
+    "price": 150,
+    "baseWeight": "200g",
+    "weightOptions": [
+      {
+        "label": "200g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 2.3
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 4.5
+      }
+    ],
+    "description": "Savory cheese potato wafers with creamy tangy delicious crunch.",
+    "image": "/assets/images/products/ttn-038.svg",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": [
+      "crunchy",
+      "savory",
+      "kids-favorite",
+      "Cheese"
+    ],
+    "inStock": true,
+    "ingredients": "Potato, palm olein oil, salt, cheese powder, milk solids, edible vegetable oil, onion powder",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 535,
+      "fat": "35g",
+      "carbs": "51g",
+      "protein": "6g",
+      "fiber": "2g"
+    }
+  },
+  {
+    "id": "TTN-039",
+    "name": "Mix Masala Potato Wafer",
+    "category": "Potato Wafers",
+    "price": 150,
+    "baseWeight": "200g",
+    "weightOptions": [
+      {
+        "label": "200g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 2.3
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 4.5
+      }
+    ],
+    "description": "Spiced mix masala potato wafers with aromatic Indian flavours.",
+    "image": "/assets/images/products/ttn-039.svg",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": [
+      "crunchy",
+      "savory",
+      "kids-favorite",
+      "Mix Masala"
+    ],
+    "inStock": true,
+    "ingredients": "Potato, edible vegetable oil, salt, mixed masala (red chilli, coriander, cumin, mango powder, garam masala)",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 525,
+      "fat": "33g",
+      "carbs": "53g",
+      "protein": "5g",
+      "fiber": "3g"
+    }
+  },
+  {
+    "id": "TTN-040",
+    "name": "Potato Salli",
+    "category": "Potato Wafers",
+    "price": 120,
+    "baseWeight": "250g",
+    "weightOptions": [
+      {
+        "label": "250g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 1.9
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 3.6
+      }
+    ],
+    "description": "Thin crispy potato salli that melts instantly on your tongue.",
+    "image": "/assets/images/products/ttn-040.svg",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": [
+      "light",
+      "crunchy",
+      "savory"
+    ],
+    "inStock": true,
+    "ingredients": "Potato, edible vegetable oil, salt",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 515,
+      "fat": "31g",
+      "carbs": "55g",
+      "protein": "5g",
+      "fiber": "3g"
+    }
+  },
+  {
+    "id": "TTN-041",
+    "name": "Peri Peri Potato Finger Chips",
+    "category": "Potato Wafers",
+    "price": 150,
+    "baseWeight": "250g",
+    "weightOptions": [
+      {
+        "label": "250g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 1.9
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 3.6
+      }
+    ],
+    "description": "Bold peri peri potato finger chips with fiery spicy coating.",
+    "image": "/assets/images/products/ttn-041.svg",
+    "isBestseller": false,
+    "isSpecial": true,
+    "tags": [
+      "crunchy",
+      "savory",
+      "party-snack",
+      "Peri Peri"
+    ],
+    "inStock": true,
+    "ingredients": "Potato, edible vegetable oil, salt, peri peri seasoning (red chilli, oregano, garlic, onion powder), citric acid",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 525,
+      "fat": "33g",
+      "carbs": "53g",
+      "protein": "5g",
+      "fiber": "3g"
+    }
+  },
+  {
+    "id": "TTN-042",
+    "name": "Cheese Potato Finger Chips",
+    "category": "Potato Wafers",
+    "price": 150,
+    "baseWeight": "250g",
+    "weightOptions": [
+      {
+        "label": "250g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 1.9
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 3.6
+      }
+    ],
+    "description": "Creamy cheese potato finger chips with rich savoury flavour.",
+    "image": "/assets/images/products/ttn-042.svg",
+    "isBestseller": false,
+    "isSpecial": true,
+    "tags": [
+      "crunchy",
+      "savory",
+      "party-snack",
+      "Cheese"
+    ],
+    "inStock": true,
+    "ingredients": "Potato, palm olein oil, salt, cheese powder, milk solids, edible vegetable oil",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 535,
+      "fat": "35g",
+      "carbs": "51g",
+      "protein": "6g",
+      "fiber": "2g"
+    }
+  },
+  {
+    "id": "TTN-043",
+    "name": "Tomato Potato Finger Chips",
+    "category": "Potato Wafers",
+    "price": 150,
+    "baseWeight": "250g",
+    "weightOptions": [
+      {
+        "label": "250g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 1.9
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 3.6
+      }
+    ],
+    "description": "Tangy tomato potato finger chips with zesty delicious crunch.",
+    "image": "/assets/images/products/ttn-043.svg",
+    "isBestseller": false,
+    "isSpecial": true,
+    "tags": [
+      "crunchy",
+      "savory",
+      "party-snack",
+      "Tomato"
+    ],
+    "inStock": true,
+    "ingredients": "Potato, edible vegetable oil, salt, tomato powder, sugar, citric acid, onion powder",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 520,
+      "fat": "32g",
+      "carbs": "54g",
+      "protein": "5g",
+      "fiber": "3g"
+    }
+  },
+  {
+    "id": "TTN-044",
+    "name": "Mix Masala Potato Finger Chips",
+    "category": "Potato Wafers",
+    "price": 150,
+    "baseWeight": "250g",
+    "weightOptions": [
+      {
+        "label": "250g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 1.9
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 3.6
+      }
+    ],
+    "description": "Spiced mix masala potato finger chips with aromatic flavour.",
+    "image": "/assets/images/products/ttn-044.svg",
+    "isBestseller": false,
+    "isSpecial": true,
+    "tags": [
+      "crunchy",
+      "savory",
+      "party-snack",
+      "Mix Masala"
+    ],
+    "inStock": true,
+    "ingredients": "Potato, edible vegetable oil, salt, mixed masala (red chilli, coriander, cumin, mango powder, garam masala)",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 525,
+      "fat": "33g",
+      "carbs": "53g",
+      "protein": "5g",
+      "fiber": "3g"
+    }
+  },
+  {
+    "id": "TTN-045",
+    "name": "Flavoured Makhana",
+    "category": "Roasted",
+    "price": 150,
+    "baseWeight": "200g",
+    "weightOptions": [
+      {
+        "label": "200g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 2.3
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 4.5
+      }
+    ],
+    "description": "Light and crunchy flavoured makhana with delicious seasoning.",
+    "image": "/assets/images/products/ttn-045.svg",
+    "isBestseller": true,
+    "isSpecial": false,
+    "tags": [
+      "healthy",
+      "light",
+      "crunchy"
+    ],
+    "inStock": true,
+    "ingredients": "Fox nuts (makhana), edible vegetable oil, salt, red chilli powder, black pepper, turmeric, mango powder",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 380,
+      "fat": "16g",
+      "carbs": "48g",
+      "protein": "10g",
+      "fiber": "7g"
+    }
+  },
+  {
+    "id": "TTN-046",
+    "name": "Tomato Soya Stick",
+    "category": "Traditional",
+    "price": 70,
+    "baseWeight": "200g",
+    "weightOptions": [
+      {
+        "label": "200g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 2.3
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 4.5
+      }
+    ],
+    "description": "Tangy tomato soya sticks with protein-packed savoury crunch.",
+    "image": "/assets/images/products/ttn-046.svg",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": [
+      "healthy",
+      "crunchy",
+      "savory",
+      "Tomato"
+    ],
+    "inStock": true,
+    "ingredients": "Soya granules, wheat flour, edible vegetable oil, salt, tomato powder, sugar, citric acid, onion powder",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 420,
+      "fat": "19g",
+      "carbs": "48g",
+      "protein": "15g",
+      "fiber": "5g"
+    }
+  },
+  {
+    "id": "TTN-047",
+    "name": "Schezwan Soya Stick",
+    "category": "Traditional",
+    "price": 70,
+    "baseWeight": "200g",
+    "weightOptions": [
+      {
+        "label": "200g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 2.3
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 4.5
+      }
+    ],
+    "description": "Spicy schezwan soya sticks with bold chilli garlic flavour.",
+    "image": "/assets/images/products/ttn-047.svg",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": [
+      "healthy",
+      "crunchy",
+      "savory",
+      "Schezwan"
+    ],
+    "inStock": true,
+    "ingredients": "Soya granules, wheat flour, edible vegetable oil, salt, schezwan seasoning (red chilli, garlic, ginger, Sichuan pepper), sugar",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 425,
+      "fat": "20g",
+      "carbs": "47g",
+      "protein": "15g",
+      "fiber": "5g"
+    }
+  },
+  {
+    "id": "TTN-048",
+    "name": "Manchurian Soya Stick",
+    "category": "Traditional",
+    "price": 70,
+    "baseWeight": "200g",
+    "weightOptions": [
+      {
+        "label": "200g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 2.3
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 4.5
+      }
+    ],
+    "description": "Tangy manchurian soya sticks with Indo-Chinese savoury taste.",
+    "image": "/assets/images/products/ttn-048.svg",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": [
+      "healthy",
+      "crunchy",
+      "savory",
+      "Manchurian"
+    ],
+    "inStock": true,
+    "ingredients": "Soya granules, wheat flour, edible vegetable oil, salt, manchurian seasoning (soy sauce powder, garlic, ginger, red chilli), sugar",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 425,
+      "fat": "20g",
+      "carbs": "47g",
+      "protein": "15g",
+      "fiber": "5g"
+    }
+  },
+  {
+    "id": "TTN-049",
+    "name": "Roasted Corn Chips",
+    "category": "Roasted",
+    "price": 100,
+    "baseWeight": "200g",
+    "weightOptions": [
+      {
+        "label": "200g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 2.3
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 4.5
+      }
+    ],
+    "description": "Healthy roasted corn chips with light crunchy guilt-free snacking.",
+    "image": "/assets/images/products/ttn-049.svg",
+    "isBestseller": false,
+    "isSpecial": true,
+    "tags": [
+      "healthy",
+      "baked",
+      "crunchy"
+    ],
+    "inStock": true,
+    "ingredients": "Corn grits, edible vegetable oil, salt, black pepper, red chilli powder, turmeric",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 420,
+      "fat": "18g",
+      "carbs": "60g",
+      "protein": "7g",
+      "fiber": "5g"
+    }
+  },
+  {
+    "id": "TTN-050",
+    "name": "Roasted Broccoli Chips",
+    "category": "Roasted",
+    "price": 100,
+    "baseWeight": "200g",
+    "weightOptions": [
+      {
+        "label": "200g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 2.3
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 4.5
+      }
+    ],
+    "description": "Nutritious roasted broccoli chips with earthy green vegetable flavour.",
+    "image": "/assets/images/products/ttn-050.svg",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": [
+      "healthy",
+      "baked",
+      "light"
+    ],
+    "inStock": true,
+    "ingredients": "Broccoli, edible vegetable oil, salt, black pepper, garlic powder, onion powder",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 380,
+      "fat": "16g",
+      "carbs": "42g",
+      "protein": "8g",
+      "fiber": "7g"
+    }
+  },
+  {
+    "id": "TTN-051",
+    "name": "Roasted Jowar Chips",
+    "category": "Roasted",
+    "price": 100,
+    "baseWeight": "200g",
+    "weightOptions": [
+      {
+        "label": "200g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 2.3
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 4.5
+      }
+    ],
+    "description": "Healthy roasted jowar chips made from nutritious sorghum flour.",
+    "image": "/assets/images/products/ttn-051.svg",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": [
+      "healthy",
+      "baked",
+      "gluten-free"
+    ],
+    "inStock": true,
+    "ingredients": "Sorghum (jowar) flour, edible vegetable oil, salt, black pepper, red chilli powder, cumin powder",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 400,
+      "fat": "17g",
+      "carbs": "62g",
+      "protein": "9g",
+      "fiber": "6g"
+    }
+  },
+  {
+    "id": "TTN-052",
+    "name": "Roasted Nachni Chips",
+    "category": "Roasted",
+    "price": 100,
+    "baseWeight": "200g",
+    "weightOptions": [
+      {
+        "label": "200g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 2.3
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 4.5
+      }
+    ],
+    "description": "Roasted nachni chips packed with finger millet nutrition and crunch.",
+    "image": "/assets/images/products/ttn-052.svg",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": [
+      "healthy",
+      "baked",
+      "gluten-free"
+    ],
+    "inStock": true,
+    "ingredients": "Finger millet (nachni/ragi) flour, edible vegetable oil, salt, black pepper, red chilli powder, cumin powder",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 390,
+      "fat": "16g",
+      "carbs": "60g",
+      "protein": "8g",
+      "fiber": "7g"
+    }
+  },
+  {
+    "id": "TTN-053",
+    "name": "Kachori",
+    "category": "Traditional",
+    "price": 80,
+    "baseWeight": "200g",
+    "weightOptions": [
+      {
+        "label": "200g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 2.3
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 4.5
+      }
+    ],
+    "description": "Crispy flaky kachori with spiced lentil filling and rich taste.",
+    "image": "/assets/images/products/ttn-053.svg",
+    "isBestseller": true,
+    "isSpecial": false,
+    "tags": [
+      "crunchy",
+      "traditional",
+      "spicy"
+    ],
+    "inStock": true,
+    "ingredients": "Whole wheat flour, refined oil, urad dal (black gram), salt, red chilli powder, fennel seeds, coriander powder, asafoetida",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 490,
+      "fat": "26g",
+      "carbs": "50g",
+      "protein": "10g",
+      "fiber": "4g"
+    }
+  },
+  {
+    "id": "TTN-054",
+    "name": "Dry Fruit Samosa",
+    "category": "Traditional",
+    "price": 80,
+    "baseWeight": "200g",
+    "weightOptions": [
+      {
+        "label": "200g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 2.3
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 4.5
+      }
+    ],
+    "description": "Premium dry fruit samosa with rich nutty filling and crispy crust.",
+    "image": "/assets/images/products/ttn-054.svg",
+    "isBestseller": false,
+    "isSpecial": true,
+    "tags": [
+      "traditional",
+      "crunchy",
+      "party-snack"
+    ],
+    "inStock": true,
+    "ingredients": "Whole wheat flour, refined oil, cashew nuts, almonds, raisins, salt, sugar, green cardamom, edible vegetable oil",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 510,
+      "fat": "28g",
+      "carbs": "52g",
+      "protein": "9g",
+      "fiber": "4g"
+    }
+  },
+  {
+    "id": "TTN-055",
+    "name": "Patti Samosa",
+    "category": "Traditional",
+    "price": 80,
+    "baseWeight": "200g",
+    "weightOptions": [
+      {
+        "label": "200g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 2.3
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 4.5
+      }
+    ],
+    "description": "Crispy layered patti samosa with savoury spiced potato filling.",
+    "image": "/assets/images/products/ttn-055.svg",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": [
+      "crunchy",
+      "traditional",
+      "savory"
+    ],
+    "inStock": true,
+    "ingredients": "All-purpose flour (maida), refined oil, potato, green peas, salt, red chilli powder, garam masala, coriander",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 470,
+      "fat": "24g",
+      "carbs": "52g",
+      "protein": "8g",
+      "fiber": "3g"
+    }
+  },
+  {
+    "id": "TTN-056",
+    "name": "Mini Kachori",
+    "category": "Traditional",
+    "price": 80,
+    "baseWeight": "200g",
+    "weightOptions": [
+      {
+        "label": "200g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 2.3
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 4.5
+      }
+    ],
+    "description": "Bite-sized mini kachoris with crunchy shell and spicy filling.",
+    "image": "/assets/images/products/ttn-056.svg",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": [
+      "crunchy",
+      "traditional",
+      "party-snack"
+    ],
+    "inStock": true,
+    "ingredients": "Whole wheat flour, refined oil, urad dal (black gram), salt, red chilli powder, fennel seeds, coriander powder, asafoetida",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 485,
+      "fat": "25g",
+      "carbs": "51g",
+      "protein": "10g",
+      "fiber": "4g"
+    }
+  },
+  {
+    "id": "TTN-057",
+    "name": "Achaari Masti Bingo",
+    "category": "Traditional",
+    "price": 120,
+    "baseWeight": "200g",
+    "weightOptions": [
+      {
+        "label": "200g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 2.3
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 4.5
+      }
+    ],
+    "description": "Tangy achaari masti bingo with pickled spice fun crunch.",
+    "image": "/assets/images/products/ttn-057.svg",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": [
+      "crunchy",
+      "spicy",
+      "kids-favorite",
+      "Achaari Masti"
+    ],
+    "inStock": true,
+    "ingredients": "Besan (gram flour), rice flour, edible vegetable oil, salt, achaari masala (mango powder, fennel, mustard, nigella seeds), turmeric",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 500,
+      "fat": "27g",
+      "carbs": "52g",
+      "protein": "10g",
+      "fiber": "3g"
+    }
+  },
+  {
+    "id": "TTN-058",
+    "name": "Schezwan Bingo",
+    "category": "Traditional",
+    "price": 120,
+    "baseWeight": "200g",
+    "weightOptions": [
+      {
+        "label": "200g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 2.3
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 4.5
+      }
+    ],
+    "description": "Spicy schezwan bingo with bold chilli masala flavour.",
+    "image": "/assets/images/products/ttn-058.svg",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": [
+      "crunchy",
+      "spicy",
+      "kids-favorite",
+      "Schezwan"
+    ],
+    "inStock": true,
+    "ingredients": "Besan (gram flour), rice flour, edible vegetable oil, salt, schezwan seasoning (red chilli, garlic, ginger, Sichuan pepper), sugar",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 505,
+      "fat": "28g",
+      "carbs": "51g",
+      "protein": "10g",
+      "fiber": "3g"
+    }
+  },
+  {
+    "id": "TTN-059",
+    "name": "Tomato Bingo",
+    "category": "Traditional",
+    "price": 120,
+    "baseWeight": "200g",
+    "weightOptions": [
+      {
+        "label": "200g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 2.3
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 4.5
+      }
+    ],
+    "description": "Tangy tomato bingo with zesty lip-smacking crunchy snack.",
+    "image": "/assets/images/products/ttn-059.svg",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": [
+      "crunchy",
+      "spicy",
+      "kids-favorite",
+      "Tomato"
+    ],
+    "inStock": true,
+    "ingredients": "Besan (gram flour), rice flour, edible vegetable oil, salt, tomato powder, sugar, citric acid, onion powder",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 500,
+      "fat": "27g",
+      "carbs": "52g",
+      "protein": "10g",
+      "fiber": "3g"
+    }
+  },
+  {
+    "id": "TTN-060",
+    "name": "Cheese Bingo",
+    "category": "Traditional",
+    "price": 120,
+    "baseWeight": "200g",
+    "weightOptions": [
+      {
+        "label": "200g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 2.3
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 4.5
+      }
+    ],
+    "description": "Savory cheese bingo with creamy tangy crispy fun shapes.",
+    "image": "/assets/images/products/ttn-060.svg",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": [
+      "crunchy",
+      "spicy",
+      "kids-favorite",
+      "Cheese"
+    ],
+    "inStock": true,
+    "ingredients": "Besan (gram flour), rice flour, palm olein oil, salt, cheese powder, milk solids, edible vegetable oil",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 510,
+      "fat": "29g",
+      "carbs": "50g",
+      "protein": "11g",
+      "fiber": "3g"
+    }
+  },
+  {
+    "id": "TTN-061",
+    "name": "Cutting Bhakarwadi",
+    "category": "Traditional",
+    "price": 80,
+    "baseWeight": "200g",
+    "weightOptions": [
+      {
+        "label": "200g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 2.3
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 4.5
+      }
+    ],
+    "description": "Classic cutting bhakarwadi with sweet spicy layered crunch.",
+    "image": "/assets/images/products/ttn-061.svg",
+    "isBestseller": true,
+    "isSpecial": false,
+    "tags": [
+      "spicy",
+      "sweet",
+      "traditional",
+      "Cutting"
+    ],
+    "inStock": true,
+    "ingredients": "Whole wheat flour, besan (gram flour), refined oil, coconut, poppy seeds, salt, red chilli powder, sugar, fennel seeds",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 490,
+      "fat": "26g",
+      "carbs": "54g",
+      "protein": "9g",
+      "fiber": "4g"
+    }
+  },
+  {
+    "id": "TTN-062",
+    "name": "Gol Bhakarwadi",
+    "category": "Traditional",
+    "price": 80,
+    "baseWeight": "200g",
+    "weightOptions": [
+      {
+        "label": "200g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 2.3
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 4.5
+      }
+    ],
+    "description": "Round gol bhakarwadi with coconut poppy seed filling.",
+    "image": "/assets/images/products/ttn-062.svg",
+    "isBestseller": true,
+    "isSpecial": false,
+    "tags": [
+      "spicy",
+      "sweet",
+      "traditional",
+      "Gol"
+    ],
+    "inStock": true,
+    "ingredients": "Whole wheat flour, besan (gram flour), refined oil, coconut, poppy seeds, salt, red chilli powder, sugar, fennel seeds",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 495,
+      "fat": "27g",
+      "carbs": "53g",
+      "protein": "9g",
+      "fiber": "4g"
+    }
+  },
+  {
+    "id": "TTN-063",
+    "name": "Mini Bhakarwadi",
+    "category": "Traditional",
+    "price": 80,
+    "baseWeight": "200g",
+    "weightOptions": [
+      {
+        "label": "200g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 2.3
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 4.5
+      }
+    ],
+    "description": "Bite-sized mini bhakarwadi with spicy sweet filling.",
+    "image": "/assets/images/products/ttn-063.svg",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": [
+      "spicy",
+      "sweet",
+      "traditional",
+      "Mini"
+    ],
+    "inStock": true,
+    "ingredients": "Whole wheat flour, besan (gram flour), refined oil, coconut, poppy seeds, salt, red chilli powder, sugar, fennel seeds",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 490,
+      "fat": "26g",
+      "carbs": "54g",
+      "protein": "9g",
+      "fiber": "4g"
+    }
+  },
+  {
+    "id": "TTN-064",
+    "name": "Garlic Bhakarwadi",
+    "category": "Traditional",
+    "price": 80,
+    "baseWeight": "200g",
+    "weightOptions": [
+      {
+        "label": "200g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 2.3
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 4.5
+      }
+    ],
+    "description": "Bold garlic bhakarwadi with aromatic pungent spicy flavour.",
+    "image": "/assets/images/products/ttn-064.svg",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": [
+      "spicy",
+      "sweet",
+      "traditional",
+      "Garlic"
+    ],
+    "inStock": true,
+    "ingredients": "Whole wheat flour, besan (gram flour), refined oil, coconut, poppy seeds, salt, red chilli powder, sugar, fennel seeds, garlic",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 495,
+      "fat": "27g",
+      "carbs": "53g",
+      "protein": "9g",
+      "fiber": "4g"
+    }
+  },
+  {
+    "id": "TTN-065",
+    "name": "Sandwich Bhakarwadi",
+    "category": "Traditional",
+    "price": 80,
+    "baseWeight": "200g",
+    "weightOptions": [
+      {
+        "label": "200g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 2.3
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 4.5
+      }
+    ],
+    "description": "Layered sandwich bhakarwadi with double filling and crunch.",
+    "image": "/assets/images/products/ttn-065.svg",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": [
+      "spicy",
+      "sweet",
+      "traditional",
+      "Sandwich"
+    ],
+    "inStock": true,
+    "ingredients": "Whole wheat flour, besan (gram flour), refined oil, coconut, poppy seeds, salt, red chilli powder, sugar, fennel seeds, coriander, cumin",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 490,
+      "fat": "26g",
+      "carbs": "54g",
+      "protein": "9g",
+      "fiber": "4g"
+    }
+  },
+  {
+    "id": "TTN-066",
+    "name": "Methi Bhakarwadi",
+    "category": "Traditional",
+    "price": 80,
+    "baseWeight": "200g",
+    "weightOptions": [
+      {
+        "label": "200g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 2.3
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 4.5
+      }
+    ],
+    "description": "Aromatic methi bhakarwadi with fenugreek spiced flavour.",
+    "image": "/assets/images/products/ttn-066.svg",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": [
+      "spicy",
+      "sweet",
+      "traditional",
+      "Methi"
+    ],
+    "inStock": true,
+    "ingredients": "Whole wheat flour, besan (gram flour), refined oil, coconut, poppy seeds, salt, red chilli powder, sugar, fennel seeds, dried fenugreek leaves (methi)",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 490,
+      "fat": "26g",
+      "carbs": "54g",
+      "protein": "9g",
+      "fiber": "4g"
+    }
+  },
+  {
+    "id": "TTN-067",
+    "name": "Homemade Sev Mumra",
+    "category": "Traditional",
+    "price": 80,
+    "baseWeight": "200g",
+    "weightOptions": [
+      {
+        "label": "200g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 2.3
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 4.5
+      }
+    ],
+    "description": "Homestyle sev mumra mix with puffed rice and crispy sev.",
+    "image": "/assets/images/products/ttn-067.svg",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": [
+      "light",
+      "crunchy",
+      "traditional"
+    ],
+    "inStock": true,
+    "ingredients": "Puffed rice (murmura), besan sev, peanuts, curry leaves, mustard seeds, salt, turmeric, red chilli powder, sugar, edible vegetable oil",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 400,
+      "fat": "18g",
+      "carbs": "55g",
+      "protein": "8g",
+      "fiber": "4g"
+    }
+  },
+  {
+    "id": "TTN-068",
+    "name": "Diet Bhel",
+    "category": "Traditional",
+    "price": 100,
+    "baseWeight": "200g",
+    "weightOptions": [
+      {
+        "label": "200g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 2.3
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 4.5
+      }
+    ],
+    "description": "Healthy diet bhel mix with baked ingredients and light spices.",
+    "image": "/assets/images/products/ttn-068.svg",
+    "isBestseller": false,
+    "isSpecial": true,
+    "tags": [
+      "healthy",
+      "light",
+      "crunchy"
+    ],
+    "inStock": true,
+    "ingredients": "Puffed rice (murmura), roasted chana dal, peanuts, curry leaves, mustard seeds, salt, turmeric, green chilli, lemon powder, edible vegetable oil",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 370,
+      "fat": "15g",
+      "carbs": "52g",
+      "protein": "8g",
+      "fiber": "5g"
+    }
+  },
+  {
+    "id": "TTN-069",
+    "name": "Bombay Bhel",
+    "category": "Traditional",
+    "price": 100,
+    "baseWeight": "200g",
+    "weightOptions": [
+      {
+        "label": "200g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 2.3
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 4.5
+      }
+    ],
+    "description": "Classic Bombay bhel mix with tangy spicy chaat flavour profile.",
+    "image": "/assets/images/products/ttn-069.svg",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": [
+      "spicy",
+      "crunchy",
+      "party-snack"
+    ],
+    "inStock": true,
+    "ingredients": "Puffed rice (murmura), sev, roasted peanuts, boiled potato, onion, tomato, tamarind chutney powder, salt, red chilli powder, chaat masala",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 410,
+      "fat": "19g",
+      "carbs": "54g",
+      "protein": "8g",
+      "fiber": "4g"
+    }
+  },
+  {
+    "id": "TTN-070",
+    "name": "Makai Chivda",
+    "category": "Chivda",
+    "price": 80,
+    "baseWeight": "250g",
+    "weightOptions": [
+      {
+        "label": "250g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 1.9
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 3.6
+      }
+    ],
+    "description": "Crunchy corn flakes chivda with sweet spicy masala coating.",
+    "image": "/assets/images/products/ttn-070.svg",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": [
+      "crunchy",
+      "light",
+      "sweet"
+    ],
+    "inStock": true,
+    "ingredients": "Corn flakes, peanuts, curry leaves, mustard seeds, green chilli, turmeric, salt, sugar, edible vegetable oil",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 420,
+      "fat": "20g",
+      "carbs": "55g",
+      "protein": "6g",
+      "fiber": "3g"
+    }
+  },
+  {
+    "id": "TTN-071",
+    "name": "Diet Chivda",
+    "category": "Chivda",
+    "price": 80,
+    "baseWeight": "250g",
+    "weightOptions": [
+      {
+        "label": "250g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 1.9
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 3.6
+      }
+    ],
+    "description": "Healthy diet chivda with light roasted ingredients and minimal oil.",
+    "image": "/assets/images/products/ttn-071.svg",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": [
+      "healthy",
+      "light",
+      "crunchy"
+    ],
+    "inStock": true,
+    "ingredients": "Poha (flattened rice), roasted peanuts, curry leaves, mustard seeds, green chilli, turmeric, salt, sugar, edible vegetable oil",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 360,
+      "fat": "15g",
+      "carbs": "52g",
+      "protein": "7g",
+      "fiber": "4g"
+    }
+  },
+  {
+    "id": "TTN-072",
+    "name": "Poha Chivda",
+    "category": "Chivda",
+    "price": 80,
+    "baseWeight": "250g",
+    "weightOptions": [
+      {
+        "label": "250g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 1.9
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 3.6
+      }
+    ],
+    "description": "Classic poha chivda with crispy flattened rice curry leaves peanuts.",
+    "image": "/assets/images/products/ttn-072.svg",
+    "isBestseller": true,
+    "isSpecial": false,
+    "tags": [
+      "light",
+      "crunchy",
+      "traditional"
+    ],
+    "inStock": true,
+    "ingredients": "Poha (flattened rice), peanuts, curry leaves, mustard seeds, green chilli, turmeric, salt, sugar, edible vegetable oil",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 400,
+      "fat": "18g",
+      "carbs": "58g",
+      "protein": "8g",
+      "fiber": "4g"
+    }
+  },
+  {
+    "id": "TTN-073",
+    "name": "Nylon Poha Chivda",
+    "category": "Chivda",
+    "price": 80,
+    "baseWeight": "250g",
+    "weightOptions": [
+      {
+        "label": "250g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 1.9
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 3.6
+      }
+    ],
+    "description": "Extra thin nylon poha chivda with light crispy delicate texture.",
+    "image": "/assets/images/products/ttn-073.svg",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": [
+      "light",
+      "crunchy",
+      "traditional"
+    ],
+    "inStock": true,
+    "ingredients": "Poha (flattened rice), peanuts, curry leaves, mustard seeds, green chilli, turmeric, salt, sugar, edible vegetable oil",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 395,
+      "fat": "17g",
+      "carbs": "59g",
+      "protein": "7g",
+      "fiber": "3g"
+    }
+  },
+  {
+    "id": "TTN-074",
+    "name": "Farali Chivda",
+    "category": "Chivda",
+    "price": 80,
+    "baseWeight": "250g",
+    "weightOptions": [
+      {
+        "label": "250g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 1.9
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 3.6
+      }
+    ],
+    "description": "Fasting-friendly farali chivda made with sabudana and peanuts.",
+    "image": "/assets/images/products/ttn-074.svg",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": [
+      "light",
+      "crunchy",
+      "healthy"
+    ],
+    "inStock": true,
+    "ingredients": "Sabudana (sago), peanuts, potato, green chilli, curry leaves, salt, sugar, edible vegetable oil, cumin powder",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 380,
+      "fat": "16g",
+      "carbs": "55g",
+      "protein": "5g",
+      "fiber": "3g"
+    }
+  },
+  {
+    "id": "TTN-075",
+    "name": "Fafda",
+    "category": "Traditional",
+    "price": 100,
+    "baseWeight": "250g",
+    "weightOptions": [
+      {
+        "label": "250g",
+        "priceMultiplier": 1
+      },
+      {
+        "label": "500g",
+        "priceMultiplier": 1.9
+      },
+      {
+        "label": "1kg",
+        "priceMultiplier": 3.6
+      }
+    ],
+    "description": "Crispy Gujarati fafda with chickpea flour and authentic taste.",
+    "image": "/assets/images/products/ttn-075.svg",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": [
+      "crunchy",
+      "traditional",
+      "savory"
+    ],
+    "inStock": true,
+    "ingredients": "Besan (gram flour), edible vegetable oil, salt, carom seeds (ajwain), black pepper, asafoetida (hing)",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 510,
+      "fat": "28g",
+      "carbs": "48g",
+      "protein": "13g",
+      "fiber": "4g"
+    }
+  },
+  {
+    "id": "TTN-076",
+    "name": "Almond Sticks",
+    "category": "Cookies and biscuits",
+    "price": 120,
+    "baseWeight": "250g",
+    "weightOptions": [
+      {
+        "label": "250g",
+        "priceMultiplier": 1
+      }
+    ],
+    "description": "Crunchy almond cookie sticks loaded with almond flakes for a delightful tea-time treat.",
+    "image": "/assets/images/products/ttn-076.webp",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": ["cookies", "almond", "tea-time"],
+    "inStock": true,
+    "ingredients": "Maida, sugar, butter, almond flakes, milk, baking powder, cardamom",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 520,
+      "fat": "28g",
+      "carbs": "60g",
+      "protein": "8g",
+      "fiber": "2g"
+    }
+  },
+  {
+    "id": "TTN-077",
+    "name": "Badam Pista Cookies",
+    "category": "Cookies and biscuits",
+    "price": 120,
+    "baseWeight": "250g",
+    "weightOptions": [
+      {
+        "label": "250g",
+        "priceMultiplier": 1
+      }
+    ],
+    "description": "Rich almond and pistachio cookies with a buttery crunch and nutty flavour.",
+    "image": "/assets/images/products/ttn-077.webp",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": ["cookies", "badam", "pista", "nuts"],
+    "inStock": true,
+    "ingredients": "Maida, sugar, butter, almonds, pistachios, milk, baking powder, cardamom",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 530,
+      "fat": "30g",
+      "carbs": "58g",
+      "protein": "9g",
+      "fiber": "2g"
+    }
+  },
+  {
+    "id": "TTN-078",
+    "name": "Bajri Cookies",
+    "category": "Cookies and biscuits",
+    "price": 120,
+    "baseWeight": "250g",
+    "weightOptions": [
+      {
+        "label": "250g",
+        "priceMultiplier": 1
+      }
+    ],
+    "description": "Healthy pearl millet cookies with earthy flavour and crispy texture.",
+    "image": "/assets/images/products/ttn-078.webp",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": ["cookies", "bajri", "millet", "healthy"],
+    "inStock": true,
+    "ingredients": "Bajri flour, sugar, butter, milk, baking powder, cardamom",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 480,
+      "fat": "24g",
+      "carbs": "55g",
+      "protein": "10g",
+      "fiber": "6g"
+    }
+  },
+  {
+    "id": "TTN-079",
+    "name": "Chocolate Nuts",
+    "category": "Cookies and biscuits",
+    "price": 120,
+    "baseWeight": "250g",
+    "weightOptions": [
+      {
+        "label": "250g",
+        "priceMultiplier": 1
+      }
+    ],
+    "description": "Rich chocolate cookies loaded with crunchy nuts for an indulgent experience.",
+    "image": "/assets/images/products/ttn-079.webp",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": ["cookies", "chocolate", "nuts"],
+    "inStock": true,
+    "ingredients": "Maida, sugar, butter, cocoa powder, mixed nuts, milk, baking powder",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 540,
+      "fat": "30g",
+      "carbs": "62g",
+      "protein": "8g",
+      "fiber": "3g"
+    }
+  },
+  {
+    "id": "TTN-080",
+    "name": "Chocolate Oats",
+    "category": "Cookies and biscuits",
+    "price": 120,
+    "baseWeight": "250g",
+    "weightOptions": [
+      {
+        "label": "250g",
+        "priceMultiplier": 1
+      }
+    ],
+    "description": "Wholesome chocolate oats cookies combining rich cocoa with healthy rolled oats.",
+    "image": "/assets/images/products/ttn-080.webp",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": ["cookies", "chocolate", "oats", "healthy"],
+    "inStock": true,
+    "ingredients": "Oats, maida, sugar, butter, cocoa powder, milk, baking powder",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 490,
+      "fat": "26g",
+      "carbs": "58g",
+      "protein": "9g",
+      "fiber": "5g"
+    }
+  },
+  {
+    "id": "TTN-081",
+    "name": "Coconut Elaichi",
+    "category": "Cookies and biscuits",
+    "price": 120,
+    "baseWeight": "250g",
+    "weightOptions": [
+      {
+        "label": "250g",
+        "priceMultiplier": 1
+      }
+    ],
+    "description": "Fragrant coconut cookies delicately spiced with cardamom for a classic Indian flavour.",
+    "image": "/assets/images/products/ttn-081.webp",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": ["cookies", "coconut", "elaichi", "cardamom"],
+    "inStock": true,
+    "ingredients": "Maida, sugar, butter, desiccated coconut, milk, cardamom, baking powder",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 510,
+      "fat": "28g",
+      "carbs": "58g",
+      "protein": "6g",
+      "fiber": "4g"
+    }
+  },
+  {
+    "id": "TTN-082",
+    "name": "Dark Chocolate Cookies",
+    "category": "Cookies and biscuits",
+    "price": 120,
+    "baseWeight": "250g",
+    "weightOptions": [
+      {
+        "label": "250g",
+        "priceMultiplier": 1
+      }
+    ],
+    "description": "Decadent dark chocolate cookies with intense cocoa flavour and crisp bite.",
+    "image": "/assets/images/products/ttn-082.webp",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": ["cookies", "dark-chocolate", "premium"],
+    "inStock": true,
+    "ingredients": "Maida, sugar, butter, dark chocolate, cocoa powder, milk, baking powder",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 540,
+      "fat": "30g",
+      "carbs": "60g",
+      "protein": "7g",
+      "fiber": "3g"
+    }
+  },
+  {
+    "id": "TTN-083",
+    "name": "Dryfruit Cookies",
+    "category": "Cookies and biscuits",
+    "price": 120,
+    "baseWeight": "250g",
+    "weightOptions": [
+      {
+        "label": "250g",
+        "priceMultiplier": 1
+      }
+    ],
+    "description": "Premium cookies packed with assorted dry fruits for a rich, indulgent bite.",
+    "image": "/assets/images/products/ttn-083.webp",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": ["cookies", "dryfruit", "premium", "nuts"],
+    "inStock": true,
+    "ingredients": "Maida, sugar, butter, almonds, cashews, raisins, pistachios, milk, baking powder",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 540,
+      "fat": "30g",
+      "carbs": "58g",
+      "protein": "9g",
+      "fiber": "3g"
+    }
+  },
+  {
+    "id": "TTN-084",
+    "name": "Farali (Upvas)",
+    "category": "Cookies and biscuits",
+    "price": 120,
+    "baseWeight": "250g",
+    "weightOptions": [
+      {
+        "label": "250g",
+        "priceMultiplier": 1
+      }
+    ],
+    "description": "Fasting-friendly cookies made with rajgira flour and sendha namak for upvas days.",
+    "image": "/assets/images/products/ttn-084.webp",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": ["cookies", "farali", "upvas", "fasting"],
+    "inStock": true,
+    "ingredients": "Rajgira flour, sugar, ghee, sendha namak, sabudana, potato starch",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 490,
+      "fat": "26g",
+      "carbs": "56g",
+      "protein": "5g",
+      "fiber": "3g"
+    }
+  },
+  {
+    "id": "TTN-085",
+    "name": "Jeera Cookies",
+    "category": "Cookies and biscuits",
+    "price": 120,
+    "baseWeight": "250g",
+    "weightOptions": [
+      {
+        "label": "250g",
+        "priceMultiplier": 1
+      }
+    ],
+    "description": "Savory cumin-flavoured cookies with a unique spicy twist for tea-time.",
+    "image": "/assets/images/products/ttn-085.webp",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": ["cookies", "jeera", "cumin", "savory"],
+    "inStock": true,
+    "ingredients": "Maida, sugar, butter, jeera (cumin seeds), milk, baking powder, black pepper",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 500,
+      "fat": "26g",
+      "carbs": "60g",
+      "protein": "7g",
+      "fiber": "2g"
+    }
+  },
+  {
+    "id": "TTN-086",
+    "name": "Kesar Badam Pista",
+    "category": "Cookies and biscuits",
+    "price": 120,
+    "baseWeight": "250g",
+    "weightOptions": [
+      {
+        "label": "250g",
+        "priceMultiplier": 1
+      }
+    ],
+    "description": "Royal saffron-infused cookies with almonds and pistachios for a rich melt-in-mouth experience.",
+    "image": "/assets/images/products/ttn-086.webp",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": ["cookies", "kesar", "badam", "pista", "premium"],
+    "inStock": true,
+    "ingredients": "Maida, sugar, butter, almonds, pistachios, saffron (kesar), milk, cardamom, baking powder",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 530,
+      "fat": "30g",
+      "carbs": "58g",
+      "protein": "9g",
+      "fiber": "2g"
+    }
+  },
+  {
+    "id": "TTN-087",
+    "name": "Lamdi",
+    "category": "Cookies and biscuits",
+    "price": 120,
+    "baseWeight": "250g",
+    "weightOptions": [
+      {
+        "label": "250g",
+        "priceMultiplier": 1
+      }
+    ],
+    "description": "Traditional Indian long-shaped cookie with crisp layers and subtle sweetness.",
+    "image": "/assets/images/products/ttn-087.webp",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": ["cookies", "lamdi", "traditional"],
+    "inStock": true,
+    "ingredients": "Maida, sugar, ghee, milk, cardamom, baking powder",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 510,
+      "fat": "28g",
+      "carbs": "60g",
+      "protein": "6g",
+      "fiber": "1g"
+    }
+  },
+  {
+    "id": "TTN-088",
+    "name": "Mawa Cake Rusk",
+    "category": "Cookies and biscuits",
+    "price": 120,
+    "baseWeight": "250g",
+    "weightOptions": [
+      {
+        "label": "250g",
+        "priceMultiplier": 1
+      }
+    ],
+    "description": "Twice-baked crunchy rusk made with rich mawa (khoya), perfect with chai.",
+    "image": "/assets/images/products/ttn-088.webp",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": ["cookies", "mawa", "rusk", "tea-time"],
+    "inStock": true,
+    "ingredients": "Maida, sugar, mawa (khoya), butter, milk, cardamom, baking powder, elaichi",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 520,
+      "fat": "28g",
+      "carbs": "62g",
+      "protein": "7g",
+      "fiber": "1g"
+    }
+  },
+  {
+    "id": "TTN-089",
+    "name": "Mix Pulses Jaggery",
+    "category": "Cookies and biscuits",
+    "price": 120,
+    "baseWeight": "250g",
+    "weightOptions": [
+      {
+        "label": "250g",
+        "priceMultiplier": 1
+      }
+    ],
+    "description": "Healthy cookies made with mixed pulse flour sweetened with natural jaggery.",
+    "image": "/assets/images/products/ttn-089.webp",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": ["cookies", "pulses", "jaggery", "healthy"],
+    "inStock": true,
+    "ingredients": "Mixed pulse flour (chana, moong, masoor), jaggery, ghee, cardamom, baking powder",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 480,
+      "fat": "22g",
+      "carbs": "56g",
+      "protein": "12g",
+      "fiber": "5g"
+    }
+  },
+  {
+    "id": "TTN-090",
+    "name": "Moongdal Cookies",
+    "category": "Cookies and biscuits",
+    "price": 120,
+    "baseWeight": "250g",
+    "weightOptions": [
+      {
+        "label": "250g",
+        "priceMultiplier": 1
+      }
+    ],
+    "description": "Protein-rich moong dal cookies with a crumbly texture and subtle nutty taste.",
+    "image": "/assets/images/products/ttn-090.webp",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": ["cookies", "moongdal", "protein", "healthy"],
+    "inStock": true,
+    "ingredients": "Moong dal flour, sugar, ghee, cardamom, baking powder, milk",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 490,
+      "fat": "24g",
+      "carbs": "55g",
+      "protein": "11g",
+      "fiber": "4g"
+    }
+  },
+  {
+    "id": "TTN-091",
+    "name": "Multigrain Jaggery Cookies",
+    "category": "Cookies and biscuits",
+    "price": 120,
+    "baseWeight": "250g",
+    "weightOptions": [
+      {
+        "label": "250g",
+        "priceMultiplier": 1
+      }
+    ],
+    "description": "Nutritious multigrain cookies sweetened with jaggery for a guilt-free indulgence.",
+    "image": "/assets/images/products/ttn-091.webp",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": ["cookies", "multigrain", "jaggery", "healthy"],
+    "inStock": true,
+    "ingredients": "Whole wheat flour, jowar flour, bajra flour, jaggery, ghee, cardamom, baking powder",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 480,
+      "fat": "22g",
+      "carbs": "58g",
+      "protein": "10g",
+      "fiber": "6g"
+    }
+  },
+  {
+    "id": "TTN-092",
+    "name": "Nachni Cookies",
+    "category": "Cookies and biscuits",
+    "price": 120,
+    "baseWeight": "250g",
+    "weightOptions": [
+      {
+        "label": "250g",
+        "priceMultiplier": 1
+      }
+    ],
+    "description": "Healthy finger millet (nachni) cookies with an earthy flavour and wholesome crunch.",
+    "image": "/assets/images/products/ttn-092.webp",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": ["cookies", "nachni", "ragi", "millet", "healthy"],
+    "inStock": true,
+    "ingredients": "Nachni (ragi) flour, sugar, butter, milk, cardamom, baking powder",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 470,
+      "fat": "24g",
+      "carbs": "54g",
+      "protein": "9g",
+      "fiber": "7g"
+    }
+  },
+  {
+    "id": "TTN-093",
+    "name": "Pista Nankhatai",
+    "category": "Cookies and biscuits",
+    "price": 120,
+    "baseWeight": "250g",
+    "weightOptions": [
+      {
+        "label": "250g",
+        "priceMultiplier": 1
+      }
+    ],
+    "description": "Traditional Indian nankhatai with crushed pistachios, crumbly and melt-in-mouth.",
+    "image": "/assets/images/products/ttn-093.webp",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": ["cookies", "pista", "nankhatai", "traditional"],
+    "inStock": true,
+    "ingredients": "Maida, sugar, ghee, pistachios, cardamom, baking powder, curd",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 520,
+      "fat": "30g",
+      "carbs": "56g",
+      "protein": "8g",
+      "fiber": "2g"
+    }
+  },
+  {
+    "id": "TTN-094",
+    "name": "Sattu Jaggery",
+    "category": "Cookies and biscuits",
+    "price": 120,
+    "baseWeight": "250g",
+    "weightOptions": [
+      {
+        "label": "250g",
+        "priceMultiplier": 1
+      }
+    ],
+    "description": "Protein-packed sattu cookies naturally sweetened with jaggery for energy.",
+    "image": "/assets/images/products/ttn-094.webp",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": ["cookies", "sattu", "jaggery", "healthy", "protein"],
+    "inStock": true,
+    "ingredients": "Sattu (roasted gram flour), whole wheat flour, jaggery, ghee, cardamom, baking powder",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 480,
+      "fat": "22g",
+      "carbs": "56g",
+      "protein": "13g",
+      "fiber": "5g"
+    }
+  },
+  {
+    "id": "TTN-095",
+    "name": "Shrewsbury Cookies",
+    "category": "Cookies and biscuits",
+    "price": 120,
+    "baseWeight": "250g",
+    "weightOptions": [
+      {
+        "label": "250g",
+        "priceMultiplier": 1
+      }
+    ],
+    "description": "Classic English-style Shrewsbury cookies with a buttery crumb and delicate sweetness.",
+    "image": "/assets/images/products/ttn-095.webp",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": ["cookies", "shrewsbury", "classic", "butter"],
+    "inStock": true,
+    "ingredients": "Maida, sugar, butter, milk, vanilla essence, baking powder",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 510,
+      "fat": "28g",
+      "carbs": "62g",
+      "protein": "6g",
+      "fiber": "1g"
+    }
+  },
+  {
+    "id": "TTN-096",
+    "name": "Surti Nankhatai",
+    "category": "Cookies and biscuits",
+    "price": 120,
+    "baseWeight": "250g",
+    "weightOptions": [
+      {
+        "label": "250g",
+        "priceMultiplier": 1
+      }
+    ],
+    "description": "Authentic Surati-style nankhatai with rich ghee flavour and crumbly texture.",
+    "image": "/assets/images/products/ttn-096.webp",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": ["cookies", "surti", "nankhatai", "traditional"],
+    "inStock": true,
+    "ingredients": "Maida, sugar, ghee, curd, cardamom, baking powder, nutmeg",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 520,
+      "fat": "30g",
+      "carbs": "56g",
+      "protein": "6g",
+      "fiber": "1g"
+    }
+  },
+  {
+    "id": "TTN-097",
+    "name": "Vanilachoco Cookies",
+    "category": "Cookies and biscuits",
+    "price": 120,
+    "baseWeight": "250g",
+    "weightOptions": [
+      {
+        "label": "250g",
+        "priceMultiplier": 1
+      }
+    ],
+    "description": "Delightful vanilla and chocolate swirl cookies with a perfect balance of flavours.",
+    "image": "/assets/images/products/ttn-097.webp",
+    "isBestseller": false,
+    "isSpecial": false,
+    "tags": ["cookies", "vanilla", "chocolate"],
+    "inStock": true,
+    "ingredients": "Maida, sugar, butter, cocoa powder, vanilla extract, milk, baking powder",
+    "nutrition": {
+      "servingSize": "100g",
+      "calories": 520,
+      "fat": "28g",
+      "carbs": "62g",
+      "protein": "6g",
+      "fiber": "2g"
+    }
+  }
+]

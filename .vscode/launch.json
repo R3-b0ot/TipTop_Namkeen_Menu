@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "Launch with Python Server",
+      "preLaunchTask": "Start Python Server",
+      "url": "http://localhost:8080",
+      "webRoot": "${workspaceFolder}",
+      "postDebugTask": "Stop Python Server"
+    },
+    {
+      "type": "msedge",
+      "request": "launch",
+      "name": "Launch Edge with Python Server",
+      "preLaunchTask": "Start Python Server",
+      "url": "http://localhost:8080",
+      "webRoot": "${workspaceFolder}",
+      "postDebugTask": "Stop Python Server"
+    }
+  ],
+  "compounds": []
+}

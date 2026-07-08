@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="">
+  <meta name="theme-color" content="#fefaef">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="icon" type="image/png" href="/assets/icons/icon-192.png">
+  <title>TipTop Namkeen</title>
+  <link rel="stylesheet" href="/assets/css/design-system.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/product.css">
+</head>
+<body>
+
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a href="/" class="header-logo">
+        <span class="header-logo-icon">🧆</span>
+        <span>TipTop</span>
+      </a>
+      <nav class="desktop-nav" role="navigation" aria-label="Main navigation">
+        <a href="/">Home</a>
+        <a href="/#products">Shop</a>
+        <a href="/#categories">Categories</a>
+        <a href="/#why-tiptop">Why Us</a>
+        <a href="/#contact">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <button class="btn btn-ghost btn-icon cart-btn" aria-label="Open cart">
+          <span aria-hidden="true">🛒</span>
+          <span class="cart-badge" style="display:none">0</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="product-page" id="product-root">
+    <div class="container">
+      <div id="product-content">
+        <div class="product-loading">
+          <div class="product-loading-spinner"></div>
+          <p>Loading product...</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">🧆 TipTop Namkeen</div>
+          <p class="footer-desc">Crafted with tradition since 1995. Pure vegetarian snacks made with love and the finest ingredients.</p>
+        </div>
+        <div>
+          <h4 class="footer-heading">Quick Links</h4>
+          <nav class="footer-links" aria-label="Footer navigation">
+            <a href="/">Home</a>
+            <a href="/#products">Shop</a>
+            <a href="/#categories">Categories</a>
+          </nav>
+        </div>
+        <div>
+          <h4 class="footer-heading">Categories</h4>
+          <nav class="footer-links" aria-label="Categories">
+            <a href="/#products">Sev</a>
+            <a href="/#products">Papdi</a>
+            <a href="/#products">Wafers</a>
+            <a href="/#products">Chivda</a>
+            <a href="/#products">Roasted</a>
+            <a href="/#products">Traditional</a>
+          </nav>
+        </div>
+        <div>
+          <h4 class="footer-heading">Contact</h4>
+          <div class="footer-links">
+            <span>📞 +91 90000 00000</span>
+            <span>📧 hello@tiptopnamkeen.com</span>
+            <span>📍 Jaipur, Rajasthan, India</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; 2025 TipTop Namkeen. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <div class="cart-overlay" aria-hidden="true"></div>
+  <aside class="cart-drawer" role="dialog" aria-label="Shopping Cart" aria-modal="true">
+    <div class="cart-header">
+      <h2 class="cart-header-title">Your Cart (<span class="cart-count">0</span>)</h2>
+      <button class="cart-close" aria-label="Close cart">✕</button>
+    </div>
+    <div class="cart-items"></div>
+    <div class="cart-footer">
+      <div class="cart-total">
+        <span>Total</span>
+        <span class="cart-total-amount">₹0</span>
+      </div>
+      <div class="checkout-form">
+        <input type="text" id="checkout-name" placeholder="Your Name *" required autocomplete="name">
+        <input type="text" id="checkout-address" placeholder="Delivery Address *" required autocomplete="street-address">
+        <textarea id="checkout-notes" placeholder="Order notes (optional)"></textarea>
+      </div>
+      <button class="cart-checkout">Proceed to Checkout</button>
+    </div>
+  </aside>
+
+  <div class="toast-container" aria-live="polite" aria-atomic="true"></div>
+
+  <nav class="bottom-nav" role="navigation" aria-label="Mobile navigation">
+    <button class="bottom-nav-item" onclick="window.location.href='/'">
+      <span class="bottom-nav-icon">🏠</span> Home
+    </button>
+    <button class="bottom-nav-item" onclick="window.location.href='/#categories'">
+      <span class="bottom-nav-icon">📂</span> Categories
+    </button>
+    <button class="bottom-nav-item cart-btn">
+      <span class="bottom-nav-icon">🛒</span> Cart
+      <span class="cart-badge" style="display:none">0</span>
+    </button>
+    <button class="bottom-nav-item" onclick="window.location.href='/#products'">
+      <span class="bottom-nav-icon">🧆</span> Shop
+    </button>
+  </nav>
+
+  <script src="/assets/js/state.js"></script>
+  <script src="/assets/js/ui.js"></script>
+  <script>
+    (function() {
+      'use strict';
+
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function() {
+          navigator.serviceWorker.register('/sw.js').catch(function(err) {
+            console.warn('SW registration failed', err);
+          });
+        });
+      }
+      document.body.classList.add('has-bottom-nav');
+
+      var root = document.getElementById('product-content');
+
+      function getProductId() {
+        var params = new URLSearchParams(window.location.search);
+        return params.get('id');
+      }
+
+      function renderProduct(product) {
+        var badges = '';
+        if (product.isBestseller) badges += '<span class="badge badge-best">Bestseller</span> ';
+        if (product.isSpecial) badges += '<span class="badge badge-hot">Special</span> ';
+
+        var weightHtml = product.weightOptions.map(function(w, i) {
+          var sel = i === 0 ? ' selected' : '';
+          return '<button class="weight-option' + sel + '" data-idx="' + i + '">' + w.label + '</button>';
+        }).join('');
+
+        var ingredients = product.ingredients.split(',').map(function(i) {
+          return '<span class="ingredient-tag">' + i.trim() + '</span>';
+        }).join('');
+
+        var n = product.nutrition;
+
+        var basePrice = product.price;
+        var baseWeight = product.baseWeight || product.weightOptions[0].label;
+
+        root.innerHTML =
+          '<nav class="product-breadcrumb">' +
+            '<a href="/">Home</a>' +
+            '<span class="product-breadcrumb-sep">›</span>' +
+            '<a href="/#products">' + product.category + '</a>' +
+            '<span class="product-breadcrumb-sep">›</span>' +
+            '<span>' + product.name + '</span>' +
+          '</nav>' +
+
+          '<div class="product-detail">' +
+            '<div class="product-detail-image">' +
+              '<img src="' + product.image + '" alt="' + product.name + '" />' +
+              '<div class="product-detail-badges">' + badges + '</div>' +
+            '</div>' +
+
+            '<div class="product-detail-info">' +
+              '<div class="product-detail-category">' + product.category + '</div>' +
+              '<h1 class="product-detail-name">' + product.name + '</h1>' +
+              '<div class="product-detail-price">₹' + basePrice + ' <span class="product-detail-price-label">/ ' + baseWeight + '</span></div>' +
+              '<p class="product-detail-desc">' + product.description + '</p>' +
+
+              '<div class="product-detail-weights" data-id="' + product.id + '">' + weightHtml + '</div>' +
+
+              '<button class="product-detail-add" data-id="' + product.id + '">Add to Cart — <span class="detail-add-price">₹' + basePrice + '</span></button>' +
+
+              '<div class="product-detail-meta">' +
+                '<div class="product-detail-meta-item">' +
+                  '<span class="product-detail-meta-label">SKU</span>' +
+                  '<span class="product-detail-meta-value">' + product.id + '</span>' +
+                '</div>' +
+                '<div class="product-detail-meta-item">' +
+                  '<span class="product-detail-meta-label">Category</span>' +
+                  '<span class="product-detail-meta-value">' + product.category + '</span>' +
+                '</div>' +
+                '<div class="product-detail-meta-item">' +
+                  '<span class="product-detail-meta-label">Base Weight</span>' +
+                  '<span class="product-detail-meta-value">' + baseWeight + '</span>' +
+                '</div>' +
+                '<div class="product-detail-meta-item">' +
+                  '<span class="product-detail-meta-label">Availability</span>' +
+                  '<span class="product-detail-meta-value" style="color:var(--color-accent-green)">' + (product.inStock ? 'In Stock' : 'Out of Stock') + '</span>' +
+                '</div>' +
+              '</div>' +
+            '</div>' +
+          '</div>' +
+
+          '<div class="product-section">' +
+            '<h2 class="product-section-title">Ingredients</h2>' +
+            '<div class="ingredients-list">' + ingredients + '</div>' +
+          '</div>' +
+
+          '<div class="product-section">' +
+            '<h2 class="product-section-title">Nutrition Facts</h2>' +
+            '<div class="nutrition-card">' +
+              '<div class="nutrition-header">' +
+                '<span class="nutrition-header-title">Nutrition Facts</span>' +
+                '<span class="nutrition-header-serving">Per ' + n.servingSize + '</span>' +
+              '</div>' +
+              '<div class="nutrition-row main">' +
+                '<span class="nutrition-row-label">Calories</span>' +
+                '<span class="nutrition-row-value">' + n.calories + '</span>' +
+              '</div>' +
+              '<div class="nutrition-row main">' +
+                '<span class="nutrition-row-label">Total Fat</span>' +
+                '<span class="nutrition-row-value">' + n.fat + '</span>' +
+              '</div>' +
+              '<div class="nutrition-row main">' +
+                '<span class="nutrition-row-label">Total Carbohydrates</span>' +
+                '<span class="nutrition-row-value">' + n.carbs + '</span>' +
+              '</div>' +
+              '<div class="nutrition-row sub">' +
+                '<span class="nutrition-row-label">Dietary Fiber</span>' +
+                '<span class="nutrition-row-value">' + n.fiber + '</span>' +
+              '</div>' +
+              '<div class="nutrition-row main">' +
+                '<span class="nutrition-row-label">Protein</span>' +
+                '<span class="nutrition-row-value">' + n.protein + '</span>' +
+              '</div>' +
+              '<div class="nutrition-cal-note">* Percent Daily Values are based on a 2000 calorie diet.</div>' +
+            '</div>' +
+          '</div>';
+
+        /* Related products */
+        var related = store.catalog.filter(function(p) {
+          return p.category === product.category && p.id !== product.id;
+        }).slice(0, 4);
+
+        if (related.length) {
+          var relatedHtml = related.map(function(p) {
+            var badges = '';
+            if (p.isBestseller) badges += '<span class="badge badge-best">Bestseller</span>';
+            else if (p.isSpecial) badges += '<span class="badge badge-hot">Special</span>';
+            return '<div class="product-card" onclick="window.location.href=\'/product.html?id=' + p.id + '\'">' +
+              '<div class="product-card-img-wrap">' +
+                '<img class="product-card-img" src="' + p.image + '" alt="' + p.name + '" loading="lazy" />' +
+                '<div class="product-card-badges">' + badges + '</div>' +
+              '</div>' +
+              '<div class="product-card-body">' +
+                '<div class="product-card-name">' + p.name + '</div>' +
+                '<div class="product-card-price">₹' + p.price + ' <span class="product-card-price-label">/ ' + (p.baseWeight || p.weightOptions[0].label) + '</span></div>' +
+              '</div>' +
+            '</div>';
+          }).join('');
+
+          root.innerHTML +=
+            '<div class="product-section">' +
+              '<h2 class="product-section-title">Related Products</h2>' +
+              '<div class="related-grid">' + relatedHtml + '</div>' +
+            '</div>';
+        }
+
+        /* Weight selector */
+        var weightContainer = root.querySelector('.product-detail-weights');
+        var addBtn = root.querySelector('.product-detail-add');
+        var priceSpan = root.querySelector('.detail-add-price');
+
+        weightContainer.addEventListener('click', function(e) {
+          var btn = e.target.closest('.weight-option');
+          if (!btn) return;
+          weightContainer.querySelectorAll('.weight-option').forEach(function(el) { el.classList.remove('selected'); });
+          btn.classList.add('selected');
+          var idx = parseInt(btn.dataset.idx);
+          var weight = product.weightOptions[idx];
+          var total = product.price * weight.priceMultiplier;
+          priceSpan.textContent = '₹' + total;
+        });
+
+        addBtn.addEventListener('click', function() {
+          var sel = weightContainer.querySelector('.weight-option.selected');
+          var weight = sel ? sel.textContent : product.weightOptions[0].label;
+          store.addToCart(product.id, weight);
+          showToast(product.name + ' added to cart!');
+        });
+      }
+
+      function renderError() {
+        root.innerHTML =
+          '<div class="product-error">' +
+            '<div class="product-error-icon">😕</div>' +
+            '<div class="product-error-text">Product not found</div>' +
+            '<a href="/" class="btn btn-primary">Back to Shop</a>' +
+          '</div>';
+      }
+
+      /* Init */
+      function init() {
+        var id = getProductId();
+        if (!id) { renderError(); return; }
+
+        var check = setInterval(function() {
+          var product = store.catalog.find(function(p) { return p.id === id; });
+          if (product) {
+            clearInterval(check);
+            document.title = product.name + ' — TipTop Namkeen';
+            var desc = document.querySelector('meta[name="description"]');
+            if (desc) desc.content = product.description;
+            renderProduct(product);
+          }
+        }, 100);
+
+        setTimeout(function() {
+          clearInterval(check);
+          var product = store.catalog.find(function(p) { return p.id === id; });
+          if (!product) renderError();
+        }, 5000);
+      }
+
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', init);
+      } else {
+        init();
+      }
+    })();
+  </script>
+</body>
+</html>

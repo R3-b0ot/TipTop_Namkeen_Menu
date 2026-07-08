@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="TipTop Namkeen — Premium Indian namkeen crafted with tradition. Order online for delivery across India.">
+  <meta name="theme-color" content="#fefaef">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="TipTop">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="icon" type="image/png" href="/assets/icons/icon-192.png">
+  <link rel="apple-touch-icon" href="/assets/icons/icon-192.png">
+  <title>TipTop Namkeen — Premium Indian Snacks</title>
+  <link rel="stylesheet" href="/assets/css/design-system.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://unpkg.com/three@0.126.0/build/three.module.js"
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Sticky Header -->
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <div class="header-logo">
+        <span class="header-logo-icon">🧆</span>
+        <span>TipTop</span>
+      </div>
+      <nav class="desktop-nav" role="navigation" aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#products">Shop</a>
+        <a href="#categories">Categories</a>
+        <a href="#why-tiptop">Why Us</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="header-search" role="search">
+        <span class="header-search-icon" aria-hidden="true">🔍</span>
+        <input type="search" placeholder="Search namkeen..." aria-label="Search products">
+      </div>
+      <div class="header-actions">
+        <button class="btn btn-ghost btn-icon cart-btn" aria-label="Open cart">
+          <span aria-hidden="true">🛒</span>
+          <span class="cart-badge" style="display:none">0</span>
+        </button>
+        <button class="btn btn-primary btn-sm" onclick="document.getElementById('products').scrollIntoView({behavior:'smooth'})">Order Now</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section" id="home">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="hero-badge">🔥 Since 1995</div>
+        <h1 class="hero-title">Crafted with <span>Tradition</span>, Packed with <span>Love</span></h1>
+        <p class="hero-desc">Discover 99 varieties of premium Indian namkeen — from classic bhujia to exotic chivda. Fresh, crunchy, and delivered to your doorstep.</p>
+        <div class="hero-actions">
+          <a href="#products" class="btn btn-primary btn-lg">Explore Our Range</a>
+          <a href="#why-tiptop" class="btn btn-secondary btn-lg">Why TipTop</a>
+        </div>
+      </div>
+      <div class="hero-3d" aria-hidden="true">
+        <div id="hero-3d-container"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Categories -->
+  <section class="section-pad section-center" id="categories">
+    <div class="container">
+      <div class="reveal">
+        <h2 class="section-title">Browse by Category</h2>
+        <p class="section-subtitle">From crunchy sev to traditional farsan — find your favorite</p>
+      </div>
+      <div class="categories-scroll" role="tablist" aria-label="Product categories"></div>
+    </div>
+  </section>
+
+  <!-- Products Grid -->
+  <section class="section-pad section-bg-alt" id="products">
+    <div class="container">
+      <div class="reveal">
+        <h2 class="section-title">Our Collection</h2>
+        <p class="section-subtitle">99 varieties of pure vegetarian goodness</p>
+      </div>
+      <div class="filter-bar">
+        <span class="filter-count"></span>
+        <div class="filter-sort">
+          <label for="sort-select">Sort:</label>
+          <select id="sort-select">
+            <option value="popular">Popular</option>
+            <option value="price-low">Price: Low to High</option>
+            <option value="price-high">Price: High to Low</option>
+            <option value="name">Name</option>
+          </select>
+        </div>
+      </div>
+      <div class="product-grid" role="list" aria-label="Products"></div>
+    </div>
+  </section>
+
+  <!-- Why TipTop -->
+  <section class="section-pad-lg" id="why-tiptop">
+    <div class="container">
+      <div class="section-center reveal">
+        <h2 class="section-title">Why TipTop Namkeen?</h2>
+        <p class="section-subtitle">Four generations of taste, trust, and tradition</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card reveal">
+          <div class="feature-icon">🌿</div>
+          <h3 class="feature-title">100% Vegetarian</h3>
+          <p class="feature-desc">All our products are pure vegetarian, made with the finest ingredients</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon">🏭</div>
+          <h3 class="feature-title">Fresh Daily</h3>
+          <p class="feature-desc">Small-batch production ensures maximum freshness and crunch</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon">📦</div>
+          <h3 class="feature-title">Secure Packaging</h3>
+          <p class="feature-desc">Airtight, food-grade packaging to preserve flavor and texture</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon">🚚</div>
+          <h3 class="feature-title">Pan-India Delivery</h3>
+          <p class="feature-desc">Free shipping on orders above ₹299. Delivered in 3-5 business days</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Process -->
+  <section class="section-pad-lg section-bg-alt">
+    <div class="container">
+      <div class="section-center reveal">
+        <h2 class="section-title">How It Works</h2>
+        <p class="section-subtitle">From our kitchen to your home — in four simple steps</p>
+      </div>
+      <div class="process-steps">
+        <div class="process-step reveal">
+          <div class="process-step-num">1</div>
+          <h3 class="process-step-title">Browse</h3>
+          <p class="process-step-desc">Explore 99 varieties across 6 categories</p>
+        </div>
+        <div class="process-step reveal">
+          <div class="process-step-num">2</div>
+          <h3 class="process-step-title">Add to Cart</h3>
+          <p class="process-step-desc">Select your favorites and quantities</p>
+        </div>
+        <div class="process-step reveal">
+          <div class="process-step-num">3</div>
+          <h3 class="process-step-title">Order via WhatsApp</h3>
+          <p class="process-step-desc">Share your cart with us on WhatsApp</p>
+        </div>
+        <div class="process-step reveal">
+          <div class="process-step-num">4</div>
+          <h3 class="process-step-title">Enjoy!</h3>
+          <p class="process-step-desc">Get fresh namkeen delivered to your door</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="section-pad-lg">
+    <div class="container">
+      <div class="section-center reveal">
+        <h2 class="section-title">What Our Customers Say</h2>
+        <p class="section-subtitle">Join thousands of happy namkeen lovers</p>
+      </div>
+      <div class="testimonials-scroll">
+        <div class="testimonial-card reveal">
+          <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+          <p class="testimonial-text">"The best bhujia I've had outside of home! Fresh, crunchy, and perfectly spiced."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">P</div>
+            <div>
+              <div class="testimonial-name">Priya S.</div>
+              <div class="testimonial-location">Mumbai, MH</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card reveal">
+          <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+          <p class="testimonial-text">"Their chivda is addictive! Ordered 3kg last month and already placing another order."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">R</div>
+            <div>
+              <div class="testimonial-name">Rahul M.</div>
+              <div class="testimonial-location">Pune, MH</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card reveal">
+          <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+          <p class="testimonial-text">"Finally found a brand that tastes like homemade. The meva papdi is incredible!"</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">A</div>
+            <div>
+              <div class="testimonial-name">Anita K.</div>
+              <div class="testimonial-location">Ahmedabad, GJ</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card reveal">
+          <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+          <p class="testimonial-text">"Great quality and packaging. The roasted makhana is my evening tea companion!"</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">V</div>
+            <div>
+              <div class="testimonial-name">Vikram S.</div>
+              <div class="testimonial-location">Delhi, DL</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="container">
+    <div class="cta-section reveal">
+      <h2 class="cta-title">Ready for a Crunch?</h2>
+      <p class="cta-desc">Browse our full collection and place your first order. Free shipping on orders above ₹299!</p>
+      <a href="#products" class="cta-btn">Shop Now 🧆</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer" id="contact">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">🧆 TipTop Namkeen</div>
+          <p class="footer-desc">Crafted with tradition since 1995. Pure vegetarian snacks made with love and the finest ingredients.</p>
+        </div>
+        <div>
+          <h4 class="footer-heading">Quick Links</h4>
+          <nav class="footer-links" aria-label="Footer navigation">
+            <a href="#home">Home</a>
+            <a href="#products">Shop</a>
+            <a href="#categories">Categories</a>
+            <a href="#why-tiptop">Why TipTop</a>
+          </nav>
+        </div>
+        <div>
+          <h4 class="footer-heading">Categories</h4>
+          <nav class="footer-links" aria-label="Categories">
+            <a href="#products">Sev</a>
+            <a href="#products">Papdi</a>
+            <a href="#products">Wafers</a>
+            <a href="#products">Chivda</a>
+            <a href="#products">Roasted</a>
+            <a href="#products">Traditional</a>
+          </nav>
+        </div>
+        <div>
+          <h4 class="footer-heading">Contact</h4>
+          <div class="footer-links">
+            <span>📞 +91 90000 00000</span>
+            <span>📧 hello@tiptopnamkeen.com</span>
+            <span>📍 Jaipur, Rajasthan, India</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; 2025 TipTop Namkeen. All rights reserved. Made with ❤️ in Rajasthan.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Cart Drawer -->
+  <div class="cart-overlay" aria-hidden="true"></div>
+  <aside class="cart-drawer" role="dialog" aria-label="Shopping Cart" aria-modal="true">
+    <div class="cart-header">
+      <h2 class="cart-header-title">Your Cart (<span class="cart-count">0</span>)</h2>
+      <button class="cart-close" aria-label="Close cart">✕</button>
+    </div>
+    <div class="cart-items"></div>
+    <div class="cart-footer">
+      <div class="cart-total">
+        <span>Total</span>
+        <span class="cart-total-amount">₹0</span>
+      </div>
+      <div class="checkout-form">
+        <input type="text" id="checkout-name" placeholder="Your Name *" required autocomplete="name">
+        <input type="text" id="checkout-address" placeholder="Delivery Address *" required autocomplete="street-address">
+        <textarea id="checkout-notes" placeholder="Order notes (optional)"></textarea>
+      </div>
+      <button class="cart-checkout">Proceed to Checkout</button>
+    </div>
+  </aside>
+
+  <!-- Toast Container -->
+  <div class="toast-container" aria-live="polite" aria-atomic="true"></div>
+
+  <!-- Bottom Navigation (Mobile) -->
+  <nav class="bottom-nav" role="navigation" aria-label="Mobile navigation">
+    <button class="bottom-nav-item active" onclick="window.scrollTo({top:0,behavior:'smooth'})">
+      <span class="bottom-nav-icon">🏠</span>
+      Home
+    </button>
+    <button class="bottom-nav-item" onclick="document.getElementById('categories').scrollIntoView({behavior:'smooth'})">
+      <span class="bottom-nav-icon">📂</span>
+      Categories
+    </button>
+    <button class="bottom-nav-item cart-btn">
+      <span class="bottom-nav-icon">🛒</span>
+      Cart
+      <span class="cart-badge" style="display:none">0</span>
+    </button>
+    <button class="bottom-nav-item" onclick="document.getElementById('products').scrollIntoView({behavior:'smooth'})">
+      <span class="bottom-nav-icon">🧆</span>
+      Shop
+    </button>
+    <button class="bottom-nav-item" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">
+      <span class="bottom-nav-icon">📞</span>
+      Contact
+    </button>
+  </nav>
+
+  <script src="/assets/js/state.js"></script>
+  <script src="/assets/js/ui.js"></script>
+  <script type="module" src="/assets/js/scene-3d.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function() {
+        navigator.serviceWorker.register('/sw.js').catch(function(err) {
+          console.warn('SW registration failed', err);
+        });
+      });
+    }
+    document.body.classList.add('has-bottom-nav');
+  </script>
+</body>
+</html>
