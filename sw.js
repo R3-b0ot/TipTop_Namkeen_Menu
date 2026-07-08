@@ -1,16 +1,16 @@
 const CACHE = 'ttn-static-v1';
 
 const PRECACHE_URLS = [
-  '/',
-  '/index.html',
-  '/product.html',
-  '/assets/css/design-system.css',
-  '/assets/css/main.css',
-  '/assets/css/product.css',
-  '/assets/js/state.js',
-  '/assets/js/ui.js',
-  '/assets/js/scene-3d.js',
-  '/assets/data/catalog.json',
+  '.',
+  'index.html',
+  'product.html',
+  'assets/css/design-system.css',
+  'assets/css/main.css',
+  'assets/css/product.css',
+  'assets/js/state.js',
+  'assets/js/ui.js',
+  'assets/js/scene-3d.js',
+  'assets/data/catalog.json',
   'https://unpkg.com/three@0.126.0/build/three.module.js'
 ];
 

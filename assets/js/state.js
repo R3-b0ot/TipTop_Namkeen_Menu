@@ -38,7 +38,7 @@ class StoreStateManager {
 
   async _fetchCatalog() {
     try {
-      const res = await fetch('/assets/data/catalog.json');
+      const res = await fetch('assets/data/catalog.json');
       if (!res.ok) throw new Error('Failed to fetch catalog');
       this.catalog = await res.json();
       this.categories = [...new Set(this.catalog.map(p => p.category))];
