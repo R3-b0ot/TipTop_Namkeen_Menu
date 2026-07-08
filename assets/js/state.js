@@ -91,9 +91,9 @@ class StoreStateManager {
   }
 
   getCartItems() {
-    return Array.from(this.cart.entries()).map(([sku, item]) => {
-      const product = this.catalog.find(p => p.id === sku);
-      return { ...item, sku, product };
+    return Array.from(this.cart.entries()).map(([key, item]) => {
+      const product = this.catalog.find(p => p.id === item.sku);
+      return { ...item, sku: item.sku, product };
     }).filter(i => i.product);
   }
 
