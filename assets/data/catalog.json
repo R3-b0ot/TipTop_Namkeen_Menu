@@ -12,7 +12,7 @@
       }
     ],
     "description": "Crispy gram flour papdi, perfect tea-time snack with authentic Indian spices.",
-    "image": "assets/images/products/ttn-001.svg",
+    "image": "assets/images/products/ttn-001.webp",
     "isBestseller": true,
     "isSpecial": false,
     "tags": [
@@ -43,7 +43,7 @@
       }
     ],
     "description": "Spiced masala papdi with aromatic seasonings and crispy texture.",
-    "image": "assets/images/products/ttn-002.svg",
+    "image": "assets/images/products/ttn-002.webp",
     "isBestseller": false,
     "isSpecial": false,
     "tags": [
@@ -74,7 +74,7 @@
       }
     ],
     "description": "Authentic Bhavnagar style gathiya with thick crunchy besan sticks.",
-    "image": "assets/images/products/ttn-003.svg",
+    "image": "assets/images/products/ttn-003.webp",
     "isBestseller": false,
     "isSpecial": false,
     "tags": [
@@ -105,7 +105,7 @@
       }
     ],
     "description": "Thick and crunchy jaada gathiya made from premium gram flour.",
-    "image": "assets/images/products/ttn-004.svg",
+    "image": "assets/images/products/ttn-004.webp",
     "isBestseller": false,
     "isSpecial": false,
     "tags": [
@@ -136,7 +136,7 @@
       }
     ],
     "description": "Traditional Marwadi style sev with rich spicy flavour and crunch.",
-    "image": "assets/images/products/ttn-005.svg",
+    "image": "assets/images/products/ttn-005.webp",
     "isBestseller": true,
     "isSpecial": false,
     "tags": [
@@ -157,7 +157,7 @@
   },
   {
     "id": "TTN-006",
-    "name": "Sev Pakodi",
+    "name": "Sev Boondi",
     "category": "Sev",
     "price": 80,
     "baseWeight": "250g",
@@ -167,8 +167,8 @@
         "priceMultiplier": 1
       }
     ],
-    "description": "Crunchy sev pakodi blend with perfect balance of spices.",
-    "image": "assets/images/products/ttn-006.svg",
+    "description": "Crunchy sev boondi blend with perfect balance of spices.",
+    "image": "assets/images/products/ttn-006.webp",
     "isBestseller": false,
     "isSpecial": false,
     "tags": [
@@ -200,7 +200,7 @@
       }
     ],
     "description": "Thick jaadi sev with robust crunch and authentic Indian seasoning.",
-    "image": "assets/images/products/ttn-007.svg",
+    "image": "assets/images/products/ttn-007.webp",
     "isBestseller": false,
     "isSpecial": false,
     "tags": [
@@ -231,7 +231,7 @@
       }
     ],
     "description": "Crispy dal moth mix with lentils and tangy spice coating.",
-    "image": "assets/images/products/ttn-008.svg",
+    "image": "assets/images/products/ttn-008.webp",
     "isBestseller": true,
     "isSpecial": false,
     "tags": [
@@ -263,7 +263,7 @@
       }
     ],
     "description": "Thin sev specially made for bhel puri with light crispiness.",
-    "image": "assets/images/products/ttn-009.svg",
+    "image": "assets/images/products/ttn-009.webp",
     "isBestseller": false,
     "isSpecial": false,
     "tags": [
@@ -295,7 +295,7 @@
       }
     ],
     "description": "Extra fine zero number sev with delicate melt-in-mouth texture.",
-    "image": "assets/images/products/ttn-010.svg",
+    "image": "assets/images/products/ttn-010.webp",
     "isBestseller": false,
     "isSpecial": false,
     "tags": [
@@ -326,7 +326,7 @@
       }
     ],
     "description": "Famous Ratlami sev with bold garlic and spice flavour.",
-    "image": "assets/images/products/ttn-011.svg",
+    "image": "assets/images/products/ttn-011.webp",
     "isBestseller": true,
     "isSpecial": false,
     "tags": [
@@ -347,7 +347,7 @@
   },
   {
     "id": "TTN-012",
-    "name": "Pakodi",
+    "name": "Boondi",
     "category": "Traditional",
     "price": 80,
     "baseWeight": "250g",
@@ -357,15 +357,15 @@
         "priceMultiplier": 1
       }
     ],
-    "description": "Crispy traditional pakodi made with gram flour and authentic spices.",
-    "image": "assets/images/products/ttn-012.svg",
+    "description": "Crispy traditional boondi made with gram flour and authentic spices.",
+    "image": "assets/images/products/ttn-012.webp",
     "isBestseller": false,
     "isSpecial": false,
     "tags": [
       "spicy",
       "crunchy",
       "tea-time",
-      "Pakodi"
+      "Boondi"
     ],
     "inStock": true,
     "ingredients": "Besan (gram flour), edible vegetable oil, salt, red chilli powder, turmeric, asafoetida, carom seeds",
@@ -380,7 +380,7 @@
   },
   {
     "id": "TTN-013",
-    "name": "Masala Pakodi",
+    "name": "Masala Boondi",
     "category": "Traditional",
     "price": 80,
     "baseWeight": "250g",
@@ -390,15 +390,15 @@
         "priceMultiplier": 1
       }
     ],
-    "description": "Zesty masala pakodi with aromatic spice blend and crunchy texture.",
-    "image": "assets/images/products/ttn-013.svg",
+    "description": "Zesty masala boondi with aromatic spice blend and crunchy texture.",
+    "image": "assets/images/products/ttn-013.webp",
     "isBestseller": false,
     "isSpecial": false,
     "tags": [
       "spicy",
       "crunchy",
       "tea-time",
-      "Masala Pakodi"
+      "Masala Boondi"
     ],
     "inStock": true,
     "ingredients": "Besan (gram flour), edible vegetable oil, salt, red chilli powder, garam masala, turmeric, asafoetida, carom seeds",
