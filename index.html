@@ -24,15 +24,6 @@
 </head>
 <body>
 
-  <!-- Preloader -->
-  <div class="preloader" id="preloader">
-    <div class="preloader-inner">
-      <div class="preloader-ring"></div>
-      <img src="assets/logo/favicon.svg" alt="" class="preloader-logo" width="80" height="106">
-      <div class="preloader-brand">TipTop Namkeen</div>
-    </div>
-  </div>
-
   <!-- Sticky Header -->
   <header class="site-header" role="banner">
     <div class="container header-inner">
@@ -297,24 +288,6 @@
       window.open('https://wa.me/919999999999?text=' + encodeURIComponent(body), '_blank');
       showToast('Feedback sent! Check WhatsApp.');
     });
-  </script>
-  <script>
-    (function() {
-      var preloader = document.getElementById('preloader');
-      if (!preloader) return;
-      var start = Date.now();
-      var MIN_DISPLAY = 800;
-      function dismiss() {
-        var elapsed = Date.now() - start;
-        var wait = Math.max(0, MIN_DISPLAY - elapsed);
-        setTimeout(function() {
-          preloader.classList.add('hidden');
-          preloader.addEventListener('transitionend', function() { preloader.remove(); }, { once: true });
-        }, wait);
-      }
-      if (document.readyState === 'complete') { dismiss(); }
-      else { window.addEventListener('load', dismiss); }
-    })();
   </script>
 </body>
 </html>
