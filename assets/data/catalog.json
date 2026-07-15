@@ -424,7 +424,7 @@
       }
     ],
     "description": "Classic yellow banana wafers with natural sweetness and crispiness.",
-    "image": "assets/images/products/ttn-014.svg",
+    "image": "assets/images/products/ttn-014.webp",
     "isBestseller": true,
     "isSpecial": false,
     "tags": [
@@ -456,7 +456,7 @@
       }
     ],
     "description": "Spicy masala coated banana wafers with sweet and savoury punch.",
-    "image": "assets/images/products/ttn-015.svg",
+    "image": "assets/images/products/ttn-015.webp",
     "isBestseller": false,
     "isSpecial": false,
     "tags": [
@@ -488,7 +488,7 @@
       }
     ],
     "description": "Traditional kara mari banana chips with spicy chilli coating.",
-    "image": "assets/images/products/ttn-016.svg",
+    "image": "assets/images/products/ttn-016.webp",
     "isBestseller": false,
     "isSpecial": false,
     "tags": [
@@ -520,7 +520,7 @@
       }
     ],
     "description": "Refreshing pudina mint flavoured banana wafers with cool crunchy taste.",
-    "image": "assets/images/products/ttn-017.svg",
+    "image": "assets/images/products/ttn-017.webp",
     "isBestseller": false,
     "isSpecial": true,
     "tags": [
